@@ -5,6 +5,10 @@
 
 Project proposal: [PDF](doc/IR_course_Project_Proposal.pdf).
 
+Installation and experimental plan: [Setup guide](doc/SETUP.md).
+
+Execution scripts: [local checks and planned Slurm layout](scripts/README.md).
+
 This project investigates whether explicitly representing a task-relevant object part improves robotic manipulation robustness and generalization compared with policies using only global visual observations.
 
 For tasks such as opening a drawer or cabinet, the robot primarily needs to interact with a functional part such as a handle. The study asks whether focusing visual features on that part helps a policy transfer to unseen object instances and configurations.

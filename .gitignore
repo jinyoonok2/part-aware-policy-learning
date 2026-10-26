@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/
+outputs/
+.cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Experiment artifacts and downloaded weights
+logs/
+runs/
+checkpoints/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
