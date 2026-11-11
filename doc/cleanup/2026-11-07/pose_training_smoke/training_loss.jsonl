@@ -1,0 +1,4 @@
+{"update": 1, "loss": 8.48037314414978, "gradient_norm": 80.01893615722656, "learning_rate": 0.0002604594154601839, "elapsed_seconds": 0.23277088906615973}
+{"update": 2, "loss": 2.9561210572719574, "gradient_norm": 68.04408264160156, "learning_rate": 0.000165, "elapsed_seconds": 0.3218537790235132}
+{"update": 3, "loss": 2.9664539098739624, "gradient_norm": 66.85790252685547, "learning_rate": 6.954058453981609e-05, "elapsed_seconds": 0.40775409108027816}
+{"update": 4, "loss": 3.0274786353111267, "gradient_norm": 70.7289047241211, "learning_rate": 2.9999999999999997e-05, "elapsed_seconds": 0.4953156861010939, "train_only_diagnostic": {"observations": 4, "position_mean_m": 0.3973662853240967, "rotation_mean_deg": 133.28555297851562, "arm_accuracy": 0.5, "used_for_checkpoint_selection": false}}

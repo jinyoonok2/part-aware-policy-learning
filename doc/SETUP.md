@@ -1,48 +1,48 @@
-# Setup status and UVA CS handoff
+# Isolated project environment
 
-Local framework installation was canceled on 2026-10-26. The project-local
-ManiSkill/SAPIEN virtual environment, verification scripts, downloaded model
-cache, and generated outputs have been removed. No MolmoSpaces or MolmoBot
-installation was performed on this laptop.
+Workspace: `/u/xna8aw/workspace/part-aware-policy-learning`.
+Large storage: `/bigtemp/xna8aw/part-aware-policy-learning`.
+The workspace `data` and `runs` links point into that project store.
 
-## Planned direction
+The independent Python environment is
+`/bigtemp/xna8aw/part-aware-policy-learning/envs/mlspaces`.
+It is separate from Live Robotics Lab. Do not replace it with that project's
+environment or upgrade its Torch/MuJoCo dependencies during routine work.
 
-Study whether task-relevant part features improve visual robustness in
-articulated manipulation. Compare global-only and part-aware policies using
-matched demonstrations, encoders, training budgets, and evaluation episodes.
-Evaluate controlled visual changes and imperfect part localization.
+```bash
+source env.sh
+"$PART_PYTHON" --version
+"$PART_PYTHON" -m pose_learning.train --help
+```
 
-- Environment: MolmoSpaces with MuJoCo.
-- Data: a small compatible subset of MolmoBot demonstrations or trajectories
-  generated using MolmoSpaces.
-- Base policy: a compatible pretrained MolmoBot checkpoint, initially with its
-  backbone frozen.
-- Adaptation: a part-aware adapter, a residual action module, and phase-specific
-  experts, implemented and compared in stages with matched controls.
-- Execution: UVA CS Linux server; Slurm scripts will be implemented there.
+`env.sh` sets the package/submodule search paths, isolated caches, resource paths,
+thread counts and offline model mode. Models already available locally are:
 
-The [proposal PDF](IR_course_Project_Proposal.pdf) describes the earlier
-ManiSkill-based plan and is retained as the original proposal.
+- Frozen MolmoBot: `/bigtemp/xna8aw/LRL/hf_models/MolmoBot-RBY1Multitask`
+  (shared read-only pretrained weights).
+- Frozen DINOv2: `/bigtemp/xna8aw/part-aware-policy-learning/models/dinov2-base/f9e44c814b77203eaa57a6bdbbd535f21ede1415`.
 
-## Continue on the server
+Pinned runtime versions include Torch 2.7.1+cu128 and MuJoCo 3.4.0. Slurm GPU
+wrappers load CUDA 12.8.1 and GCC 12.4.0. Native expert generation additionally
+uses the installed CuRobo revision recorded in
+`data_preparation/fixtures/planner_build/curobo_build_receipt.json`.
+The environment receipts in the project store and the two upstream submodule
+commits remain the source of exact dependency identity.
 
-1. Inspect the user's existing MolmoSpaces/MolmoBot installation and source revisions.
-2. Confirm Python, CUDA, rendering, storage paths, and Slurm resource requirements.
-3. Reuse or create an isolated Linux environment and record compatible versions.
-4. Verify one articulated task, RGB rendering, and target-handle identification.
-5. Inspect a demonstration and validate observation/action alignment.
-6. Verify pixel-level part masks; visibility metadata alone is insufficient.
-7. Implement server smoke tests before collecting data or training policies.
-8. Inspect action-generation interfaces, GPU memory requirements, and available
-   phase labels before implementing the three designs in the [research plan](RESEARCH_PLAN.md).
+CPU checks use the project interpreter. Rendering and native MolmoBot execution
+require an allocated GPU; use the wrappers under the relevant package's
+`slurm/` directory. No jobs are submitted automatically by preparation scripts.
 
-No package pins or runnable installation commands are prescribed here yet.
-Choose them against the existing server setup and upstream compatibility
-requirements. No cluster jobs have been submitted by this project.
+Current entry points:
 
-## Upstream references
+- `grasp.reproduce`: retained local contact or guarded opening diagnostic.
+- `data_preparation.collect_interaction_pose_dataset`: official Train subset.
+- `data_preparation.prepare_train_test_dataset`: source-backed Train/Test manifests.
+- `data_preparation.prepare_test_set`: metadata plan and separately requested assets.
+- `pose_learning.prepare_features`: frozen RGB/part features for one declared split.
+- `pose_learning.train`: fixed-update pose training on Train only.
+- `pose_learning.evaluate`: offline pose prediction errors on Test labels.
+- `pose_learning.evaluate_policy`: matched full-start simulator evaluation.
 
-- [MolmoSpaces](https://github.com/allenai/molmospaces)
-- [MolmoBot](https://github.com/allenai/MolmoBot)
-- [MolmoSpaces data generation](https://github.com/allenai/molmospaces/blob/main/scripts/datagen/README.md)
-- [MolmoSpaces trajectory format](https://github.com/allenai/molmospaces/blob/main/docs/data_format.md)
+Dataset source folders contain essential symlink targets and frozen provenance.
+Use `data_preparation/README.md` before changing their layout.

@@ -1,0 +1,21 @@
+{
+  "name": "Two-split interaction-pose data: official Train and official Val as Test",
+  "source_dataset": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_v2_5000_20261107",
+  "quality_view": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_v2_early_quality_20261107",
+  "repo": "allenai/molmobot-data",
+  "revision": "159a5aecaf2ba73855940ad325b477b27d85da73",
+  "task": "DoorOpeningDataGenConfig",
+  "download_budget_bytes": 20000000000,
+  "project_splits": ["train", "test"],
+  "source_to_project_role": {"train": "train", "val": "test"},
+  "selection": "Retain all existing official Val trajectories and complete all released Val house packages. Do not select by baseline outcomes or strict grasp-metric outcome.",
+  "exposure_houses": {
+    "7": "Expert replay diagnostic inspected before Test designation; exact source Val house.",
+    "125": "Expert trajectory inspected before Test designation; also numeric ID in earlier benchmark study.",
+    "204": "Expert replay diagnostic inspected before Test designation; exact source Val house.",
+    "397": "Expert replay diagnostic inspected before Test designation; exact source Val house.",
+    "843": "Numeric house ID in earlier benchmark study; exact cross-family scene identity not established."
+  },
+  "label_status": "Expert source poses and states are available. Source grasp flags and ordinary success do not certify the stricter physical grasp-retention objective.",
+  "scope": "Prepare Train/Test manifests and complete available expert Test data. Preserve original source splits and files. No automatic model training, policy evaluation, or resumption of the retired 200-start experiment."
+}

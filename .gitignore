@@ -2,8 +2,12 @@
 __pycache__/
 *.py[cod]
 data/
+/data
 outputs/
 .cache/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
 
 # Local configuration and credentials
 .env
@@ -15,6 +19,9 @@ outputs/
 # Experiment artifacts and downloaded weights
 logs/
 runs/
+/runs
+training/
+/training
 checkpoints/
 wandb/
 *.pt
@@ -23,3 +30,7 @@ wandb/
 *.safetensors
 *.h5
 *.hdf5
+*.npy
+*.npz
+*.mjb
+*.mp4

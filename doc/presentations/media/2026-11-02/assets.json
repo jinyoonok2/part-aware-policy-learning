@@ -1,0 +1,36 @@
+{
+  "presentation_archive_label": "2026-11-02",
+  "experiment_run": "closed_loop_dev_20261103_01",
+  "organized_at": "2026-11-08T00:03:19-05:00",
+  "assets_preserved_byte_for_byte": true,
+  "assets": [
+    {
+      "file": "simulator_vs_critic_diagram.png",
+      "original_path": "doc/presentations/simulator_vs_critic_diagram.png",
+      "new_path": "doc/presentations/media/2026-11-02/simulator_vs_critic_diagram.png",
+      "bytes": 315752,
+      "sha256": "0568cb81c3fdd35bd245ef542c0fa655404beb2f42437702c6156e4e1747caf1"
+    },
+    {
+      "file": "action_candidate_selection_architecture.png",
+      "original_path": "doc/presentations/action_candidate_selection_architecture.png",
+      "new_path": "doc/presentations/media/2026-11-02/action_candidate_selection_architecture.png",
+      "bytes": 372701,
+      "sha256": "29607465db25a6fd16caa1d4a282cd024022acbd97cda6092acf54161c48bfbb"
+    },
+    {
+      "file": "action_candidate_selection_results_table.png",
+      "original_path": "doc/presentations/action_candidate_selection_results_table.png",
+      "new_path": "doc/presentations/media/2026-11-02/action_candidate_selection_results_table.png",
+      "bytes": 104253,
+      "sha256": "25fc0a55a0b03be36594bc18f010b4be91828e2a48fb89e86ac6b45f6bbb6dbc"
+    },
+    {
+      "file": "episode_1885_comparison_2x.gif",
+      "original_path": "doc/presentations/episode_1885_comparison_2x.gif",
+      "new_path": "doc/presentations/media/2026-11-02/episode_1885_comparison_2x.gif",
+      "bytes": 22866740,
+      "sha256": "e45c1e693ae743dd32949fb88d1357c0481b194202ad885ecbfcb06f673af083"
+    }
+  ]
+}

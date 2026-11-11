@@ -1,0 +1,1818 @@
+{
+  "schema": 1,
+  "source_run": "interaction_pose_recovery_20261106_01",
+  "original_dataset": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_v1_20261106",
+  "source_study_sha256": "b351a0b852d9696bfa3487012f30a0b15867ac37794255da817abbefc3e87869",
+  "metric": "local_bilateral_contact_after_expert_approach",
+  "reference_contact": 7,
+  "improved_contact": 10,
+  "cases": [
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 93349,
+      "h5": "raw/part0/train/house_93349/trajectories_batch_16_of_20.h5",
+      "trajectory": "traj_0",
+      "observations": 124,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Push the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 123,
+      "grasp_event_count": 1,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 56,
+        "target_frame": 60,
+        "arm": "left",
+        "measured_tcp_base_xyz_wxyz": [
+          0.5256097316741943,
+          0.09296363592147827,
+          1.0131553411483765,
+          -0.4097573240609013,
+          0.41700656030839295,
+          -0.5730957500045729,
+          0.5742523185542294
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          6.3467800858756,
+          24.559401649755753,
+          1.0131553411483767,
+          -0.4967262278641759,
+          0.5036953318964195,
+          -0.49862232464992706,
+          0.5009289815315995
+        ],
+        "robot_base_world_xyz_wxyz": [
+          5.877820014953613,
+          24.304481506347656,
+          0.0,
+          0.9869994319078137,
+          0.0,
+          0.0,
+          0.16072374253249855
+        ],
+        "gripper_joint_positions": [
+          -0.015333795920014381,
+          0.01567809097468853
+        ],
+        "closure_proxy_m": 0.06942840665578842,
+        "handle_position_world": [
+          6.414561478228428,
+          24.55602523702522,
+          1.0133487656713343
+        ],
+        "tcp_minus_handle_world_m": [
+          -0.06778139235282854,
+          0.003376412730531797,
+          -0.00019342452295756374
+        ],
+        "tcp_to_handle_origin_m": 0.06786571096850796,
+        "commanded_ee_pose": [
+          0.5201349827379556,
+          0.09331730715522824,
+          1.0187163365047727,
+          -0.41270890049032544,
+          0.41458296205846495,
+          -0.570024980967055,
+          0.5769435432522013
+        ]
+      },
+      "other_eligible_events": [],
+      "condition_frames": [
+        {
+          "frame": 0,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.1327548897242679,
+            0.2002074238259013,
+            1.013155341148377,
+            0.28901108812477827,
+            -0.29634629513035615,
+            0.6438261282179011,
+            -0.6435366197252418
+          ]
+        },
+        {
+          "frame": 18,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.922833793484223,
+            0.17783229082294838,
+            1.013155341148377,
+            -0.33482530589101617,
+            0.3421622309126421,
+            -0.6206917252150421,
+            0.6209338165388048
+          ]
+        },
+        {
+          "frame": 36,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.756632050882887,
+            0.0991086023115777,
+            1.013155341148377,
+            -0.38325494548232375,
+            0.39054922747115967,
+            -0.5914427368183853,
+            0.5922688888923676
+          ]
+        },
+        {
+          "frame": 55,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.5175643476344955,
+            0.09481744138714276,
+            1.0131553411483765,
+            -0.4094010640201834,
+            0.41665101623733974,
+            -0.5733542889714294,
+            0.5745063609444202
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_93349/episode_00000000_head_camera_batch_16_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_93349/episode_00000000_wrist_camera_l_batch_16_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_93349/episode_00000000_wrist_camera_r_batch_16_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "audit_preview": "audit/previews/part0_house_93349_traj_0.jpg",
+      "h5_sha256": "3688cf190226b1d1a29d56429eff25bdab782c648830d074fd20241016b1d8fc"
+    },
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 2188,
+      "h5": "raw/part0/train/house_2188/trajectories_batch_8_of_20.h5",
+      "trajectory": "traj_0",
+      "observations": 170,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Pull the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 169,
+      "grasp_event_count": 1,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 105,
+        "target_frame": 109,
+        "arm": "right",
+        "measured_tcp_base_xyz_wxyz": [
+          0.45099908113479614,
+          -0.4160424768924713,
+          0.9112595915794373,
+          0.09478073695069958,
+          0.7083798742531213,
+          -0.08792002617762136,
+          0.6938909385869948
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          3.3904594910353403,
+          4.492702761647873,
+          0.9112595915794373,
+          -0.7003303363054015,
+          -0.006380712493673762,
+          0.7137865673701173,
+          0.0023329810160826704
+        ],
+        "robot_base_world_xyz_wxyz": [
+          3.934636354446411,
+          4.209218978881836,
+          0.0,
+          -0.1320350929993311,
+          0.0,
+          0.0,
+          0.9912450424676321
+        ],
+        "gripper_joint_positions": [
+          -0.018850848078727722,
+          0.019302047789096832
+        ],
+        "closure_proxy_m": 0.06225776672363281,
+        "handle_position_world": [
+          3.3202223787186766,
+          4.492040028394131,
+          0.9144850292239985
+        ],
+        "tcp_minus_handle_world_m": [
+          0.07023711231666363,
+          0.0006627332537423314,
+          -0.003225437644561291
+        ],
+        "tcp_to_handle_origin_m": 0.07031425609325744,
+        "commanded_ee_pose": [
+          0.4455066928870588,
+          -0.4244192353716447,
+          0.9158731303336284,
+          0.09932540633188397,
+          0.7043212950701484,
+          -0.0907823579624802,
+          0.6970111480101928
+        ]
+      },
+      "other_eligible_events": [],
+      "condition_frames": [
+        {
+          "frame": 0,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.3696000198470322,
+            -0.15132823193579803,
+            0.9112595915794373,
+            0.021400273388275347,
+            0.7136956726782411,
+            -0.013056188199271604,
+            0.7000071792838737
+          ]
+        },
+        {
+          "frame": 34,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.0429912375397423,
+            -0.17235738094708974,
+            0.9112595915794375,
+            -0.0028824658862120858,
+            0.7137192570395048,
+            0.011696126748590175,
+            0.7003282902614124
+          ]
+        },
+        {
+          "frame": 69,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.7194584365330621,
+            -0.24313098386399012,
+            0.911259591579437,
+            -0.029538855741934256,
+            0.7127567600455906,
+            0.03885586518473331,
+            0.6997109965918182
+          ]
+        },
+        {
+          "frame": 104,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.445216914858106,
+            -0.41085633752457174,
+            0.9112595915794375,
+            0.09356965833683528,
+            0.708532227998422,
+            -0.08668367284289356,
+            0.6940552872709681
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_2188/episode_00000000_head_camera_batch_8_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_2188/episode_00000000_wrist_camera_l_batch_8_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_2188/episode_00000000_wrist_camera_r_batch_8_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "audit_preview": "audit/previews/part0_house_2188_traj_0.jpg",
+      "h5_sha256": "d4028bd60e01892084fbeb1707af767fcc08160689c08644f4f06946d51bac4f"
+    },
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 20276,
+      "h5": "raw/part0/train/house_20276/trajectories_batch_4_of_20.h5",
+      "trajectory": "traj_0",
+      "observations": 153,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Push the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 152,
+      "grasp_event_count": 1,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 85,
+        "target_frame": 89,
+        "arm": "right",
+        "measured_tcp_base_xyz_wxyz": [
+          0.4879210591316223,
+          -0.224008247256279,
+          0.910228431224823,
+          0.44689507089282404,
+          0.4976590662534261,
+          0.5023934930746858,
+          0.5479242899376532
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          10.241791626464526,
+          5.595552973950493,
+          0.9102284312248232,
+          0.4765458412373091,
+          0.5247111245516597,
+          0.47406961923302904,
+          0.5223411654191246
+        ],
+        "robot_base_world_xyz_wxyz": [
+          9.781628608703613,
+          5.872133255004883,
+          0.0,
+          0.9984661399351396,
+          0.0,
+          0.0,
+          -0.05536576020450256
+        ],
+        "gripper_joint_positions": [
+          -0.017422158271074295,
+          0.017825579270720482
+        ],
+        "closure_proxy_m": 0.06515787728130817,
+        "handle_position_world": [
+          10.297822648756375,
+          5.594081400723555,
+          0.909960975842
+        ],
+        "tcp_minus_handle_world_m": [
+          -0.0560310222918492,
+          0.0014715732269383608,
+          0.0002674553828232451
+        ],
+        "tcp_to_handle_origin_m": 0.05605098142953203,
+        "commanded_ee_pose": [
+          0.47584423304742707,
+          -0.2230973995998573,
+          0.9155018430812479,
+          0.4502750909073616,
+          0.4952225976679674,
+          0.4999215074562784,
+          0.5496229686339538
+        ]
+      },
+      "other_eligible_events": [],
+      "condition_frames": [
+        {
+          "frame": 0,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.3727790340775592,
+            0.23231998832136114,
+            0.910228431224823,
+            0.22101376196181025,
+            0.2847170269356342,
+            0.6473020799294174,
+            0.6716317063059725
+          ]
+        },
+        {
+          "frame": 28,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.1121445116493565,
+            -0.050600388041623034,
+            0.9102284312248232,
+            0.3099771447237831,
+            0.36979645780838366,
+            0.6027556286758247,
+            0.6354922514404675
+          ]
+        },
+        {
+          "frame": 56,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.828928447672693,
+            -0.19673124817359167,
+            0.9102284312248232,
+            0.3969367471129883,
+            0.4515110186795971,
+            0.5442440336089398,
+            0.5851302852214565
+          ]
+        },
+        {
+          "frame": 84,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.48178800693138335,
+            -0.22368253741572985,
+            0.9102284312248234,
+            0.44652921005803425,
+            0.49732358772667423,
+            0.5027255883667405,
+            0.5482224880985195
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_20276/episode_00000000_head_camera_batch_4_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_20276/episode_00000000_wrist_camera_l_batch_4_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_20276/episode_00000000_wrist_camera_r_batch_4_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "audit_preview": "audit/previews/part0_house_20276_traj_0.jpg",
+      "h5_sha256": "cdb9b969394d34cf363928bf5cd03b6fccab3b152bab44174cc07e0bea61960c"
+    },
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 18548,
+      "h5": "raw/part0/train/house_18548/trajectories_batch_5_of_20.h5",
+      "trajectory": "traj_3",
+      "observations": 132,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Pull the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 131,
+      "grasp_event_count": 1,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 73,
+        "target_frame": 77,
+        "arm": "left",
+        "measured_tcp_base_xyz_wxyz": [
+          0.5697779655456543,
+          0.4583093523979187,
+          1.013112187385559,
+          -0.5529715461072259,
+          0.5549154920067856,
+          -0.4408898387268314,
+          0.43807238675141325
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          7.359630165971404,
+          10.503769779804005,
+          1.013112187385559,
+          -0.0033963995523198756,
+          0.0044134422084566895,
+          0.7087281387736606,
+          -0.7054597162902903
+        ],
+        "robot_base_world_xyz_wxyz": [
+          7.05020809173584,
+          11.166304588317871,
+          0.0,
+          -0.6171862567111553,
+          0.0,
+          0.0,
+          0.7868170845418088
+        ],
+        "gripper_joint_positions": [
+          -0.015305019915103912,
+          0.01565050333738327
+        ],
+        "closure_proxy_m": 0.06945009902119637,
+        "handle_position_world": [
+          7.370480380490295,
+          10.43738957901195,
+          1.0133529544733233
+        ],
+        "tcp_minus_handle_world_m": [
+          -0.010850214518891121,
+          0.06638020079205376,
+          -0.0002407670877642154
+        ],
+        "tcp_to_handle_origin_m": 0.06726155054033382,
+        "commanded_ee_pose": [
+          0.5681241480076853,
+          0.459099040901946,
+          1.015629764143304,
+          0.5548932823129852,
+          -0.5540614494862403,
+          0.4402013529995582,
+          -0.437415276658791
+        ]
+      },
+      "other_eligible_events": [],
+      "condition_frames": [
+        {
+          "frame": 0,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.3236966888722996,
+            0.22332339874500473,
+            1.0131121873855589,
+            0.4934480047961407,
+            -0.49502194506281294,
+            0.50721625276398,
+            -0.5041765696668216
+          ]
+        },
+        {
+          "frame": 24,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.1125063676937526,
+            0.27608747062537287,
+            1.0131121873855589,
+            -0.5035033012150077,
+            0.5051381491647196,
+            -0.49714233718337236,
+            0.4941349739735944
+          ]
+        },
+        {
+          "frame": 48,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.8948490395037041,
+            0.31786713386019905,
+            1.0131121873855589,
+            -0.5147691115395162,
+            0.5164729050029823,
+            -0.48535635522725445,
+            0.48238750879672754
+          ]
+        },
+        {
+          "frame": 72,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.5631758532568991,
+            0.45819511230590937,
+            1.013112187385559,
+            -0.5529017797756717,
+            0.5548452769951995,
+            -0.4409781987330267,
+            0.43816043723639664
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_18548/episode_00000003_head_camera_batch_5_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_18548/episode_00000003_wrist_camera_l_batch_5_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_18548/episode_00000003_wrist_camera_r_batch_5_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "h5_sha256": "4a9e6365457a25b000968dcebc75cde2da24eb480ff2bbcb3b57d04581b195a0"
+    },
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 94658,
+      "h5": "raw/part0/train/house_94658/trajectories_batch_17_of_20.h5",
+      "trajectory": "traj_4",
+      "observations": 266,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Push the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 265,
+      "grasp_event_count": 4,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 184,
+        "target_frame": 188,
+        "arm": "left",
+        "measured_tcp_base_xyz_wxyz": [
+          0.5526003241539001,
+          0.4645666182041168,
+          1.0098553895950317,
+          0.631549287832129,
+          -0.6181256664099609,
+          0.3328593911732256,
+          -0.32904526021774266
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          2.9117736569759707,
+          18.1358717871227,
+          1.0098553895950315,
+          -0.14888922454506545,
+          0.13739545810876216,
+          -0.6884745469936068,
+          0.6963887456352238
+        ],
+        "robot_base_world_xyz_wxyz": [
+          2.559239149093628,
+          18.765878677368164,
+          0.0,
+          -0.6372671774032984,
+          0.0,
+          0.0,
+          0.7706429423568565
+        ],
+        "gripper_joint_positions": [
+          -0.02905816026031971,
+          0.029375344514846802
+        ],
+        "closure_proxy_m": 0.041972117498517036,
+        "handle_position_world": [
+          2.9463451215737066,
+          18.06337039917444,
+          1.0097568246798745
+        ],
+        "tcp_minus_handle_world_m": [
+          -0.03457146459773597,
+          0.072501387948261,
+          9.856491515702892e-05
+        ],
+        "tcp_to_handle_origin_m": 0.08032214597419106,
+        "commanded_ee_pose": [
+          0.5515325591721165,
+          0.46499687162345626,
+          1.0162201958214037,
+          0.6350870196069738,
+          -0.6150164171046075,
+          0.3303842958361275,
+          -0.3305533259300361
+        ]
+      },
+      "other_eligible_events": [
+        {
+          "start_frame": 79,
+          "target_frame": 83,
+          "arm": "left",
+          "measured_tcp_base_xyz_wxyz": [
+            0.6091688275337219,
+            0.254831999540329,
+            1.009674310684204,
+            0.5221363141687916,
+            -0.5156602697177977,
+            0.48237408669308274,
+            -0.4783130733607557
+          ],
+          "measured_tcp_world_xyz_wxyz": [
+            2.877168176611299,
+            18.489832233832974,
+            1.0096743106842039,
+            -0.007273983813491389,
+            -0.00011545833593486797,
+            -0.706109240803284,
+            0.7080655449046109
+          ],
+          "robot_base_world_xyz_wxyz": [
+            2.6636953353881836,
+            19.114696502685547,
+            0.0,
+            -0.6830242808832633,
+            0.0,
+            0.0,
+            0.7303956679252015
+          ],
+          "gripper_joint_positions": [
+            -0.0289936326444149,
+            0.029354864731431007
+          ],
+          "closure_proxy_m": 0.04205712862312794,
+          "handle_position_world": [
+            2.8738760019178917,
+            18.40805458939107,
+            1.0097568246798738
+          ],
+          "tcp_minus_handle_world_m": [
+            0.003292174693407368,
+            0.08177764444190316,
+            -8.251399566994166e-05
+          ],
+          "tcp_to_handle_origin_m": 0.08184392679507582,
+          "commanded_ee_pose": [
+            0.6014384151772774,
+            0.2540589236325044,
+            1.0154417436084504,
+            0.5248125084067128,
+            -0.5136706714105314,
+            0.47978409289984925,
+            -0.480126542229001
+          ]
+        },
+        {
+          "start_frame": 113,
+          "target_frame": 117,
+          "arm": "left",
+          "measured_tcp_base_xyz_wxyz": [
+            0.5964661836624146,
+            0.31215476989746094,
+            1.0098329782485962,
+            0.5542723523707307,
+            -0.540403007214579,
+            0.4510375548926972,
+            -0.4441980113274635
+          ],
+          "measured_tcp_world_xyz_wxyz": [
+            2.873723969201214,
+            18.368674668648907,
+            1.009832978248596,
+            -0.058039295194680325,
+            0.04354079191507979,
+            -0.7025485645630136,
+            0.7079273649769174
+          ],
+          "robot_base_world_xyz_wxyz": [
+            2.59544038772583,
+            18.98167610168457,
+            0.0,
+            -0.687034866005822,
+            0.0,
+            0.0,
+            0.7266244510697132
+          ],
+          "gripper_joint_positions": [
+            -0.029027918353676796,
+            0.02934711053967476
+          ],
+          "closure_proxy_m": 0.04203059710562229,
+          "handle_position_world": [
+            2.882275744440496,
+            18.288398587649265,
+            1.0097568246798705
+          ],
+          "tcp_minus_handle_world_m": [
+            -0.008551775239281856,
+            0.08027608099964212,
+            7.615356872547885e-05
+          ],
+          "tcp_to_handle_origin_m": 0.08073034026789634,
+          "commanded_ee_pose": [
+            0.5949634079077946,
+            0.3124009625889941,
+            1.01597080062548,
+            0.557617255353938,
+            -0.5376066585243845,
+            0.4484231323653306,
+            -0.4460479476485149
+          ]
+        },
+        {
+          "start_frame": 144,
+          "target_frame": 148,
+          "arm": "left",
+          "measured_tcp_base_xyz_wxyz": [
+            0.5913066267967224,
+            0.36377742886543274,
+            1.009816288948059,
+            0.5823346378180766,
+            -0.563388228586881,
+            0.41940143717102246,
+            -0.40936842573152477
+          ],
+          "measured_tcp_world_xyz_wxyz": [
+            2.8805327293920264,
+            18.2701782003205,
+            1.009816288948059,
+            -0.10317643576165716,
+            0.08286400561698135,
+            -0.6974506564514019,
+            0.7043087117820835
+          ],
+          "robot_base_world_xyz_wxyz": [
+            2.549466371536255,
+            18.880401611328125,
+            0.0,
+            -0.6876013739316099,
+            0.0,
+            0.0,
+            0.7260883903267994
+          ],
+          "gripper_joint_positions": [
+            -0.029062660411000252,
+            0.029373573139309883
+          ],
+          "closure_proxy_m": 0.04196938872337341,
+          "handle_position_world": [
+            2.9023256026979465,
+            18.18918875834318,
+            1.009756824679871
+          ],
+          "tcp_minus_handle_world_m": [
+            -0.021792873305920057,
+            0.08098944197731939,
+            5.946426818814743e-05
+          ],
+          "tcp_to_handle_origin_m": 0.08387027229432761,
+          "commanded_ee_pose": [
+            0.5896560984139967,
+            0.36491627219608014,
+            1.0163903511845065,
+            0.5860472331188956,
+            -0.5606058891986713,
+            0.41627535275138794,
+            -0.4110772533735737
+          ]
+        }
+      ],
+      "condition_frames": [
+        {
+          "frame": 167,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.619469155067712,
+            0.4069005482889949,
+            1.0098553895950315,
+            0.6266425191699659,
+            -0.613164263738175,
+            0.3419127073412022,
+            -0.3382963780494116
+          ]
+        },
+        {
+          "frame": 172,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.6975469707779247,
+            0.49945084511967264,
+            1.0098553895950315,
+            0.6234410350703885,
+            -0.6099294443628055,
+            0.3476503799311142,
+            -0.34416066309703974
+          ]
+        },
+        {
+          "frame": 177,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.6652396466685211,
+            0.5118559838662541,
+            1.0098553895950313,
+            0.6260031116883242,
+            -0.6125180570165817,
+            0.3430690070461047,
+            -0.3394781147431553
+          ]
+        },
+        {
+          "frame": 183,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.5430639173058758,
+            0.4590095303862549,
+            1.0098553895950315,
+            0.6317670678427898,
+            -0.6183459753687804,
+            0.3324499488828362,
+            -0.32862692863238596
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_94658/episode_00000004_head_camera_batch_17_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_94658/episode_00000004_wrist_camera_l_batch_17_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_94658/episode_00000004_wrist_camera_r_batch_17_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "h5_sha256": "2543c7fdc6107d1697e4b2aecd37dc42b4d4f9ff6328fcd2eed561c6c1af5e3f"
+    },
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 34247,
+      "h5": "raw/part0/train/house_34247/trajectories_batch_7_of_20.h5",
+      "trajectory": "traj_0",
+      "observations": 364,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Pull the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 363,
+      "grasp_event_count": 3,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 311,
+        "target_frame": 315,
+        "arm": "right",
+        "measured_tcp_base_xyz_wxyz": [
+          0.38530489802360535,
+          -0.5042819976806641,
+          0.9072384238243103,
+          0.20183421574331767,
+          0.6827020612311577,
+          -0.18743282466400438,
+          0.6767937508462093
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          10.984822914485404,
+          9.029992817148445,
+          0.9072384238243103,
+          -0.7041968237017395,
+          -0.0693548429384048,
+          0.7045587796144394,
+          -0.05379279986747495
+        ],
+        "robot_base_world_xyz_wxyz": [
+          11.608484268188477,
+          8.912490844726562,
+          0.0,
+          -0.35794378086697404,
+          0.0,
+          0.0,
+          0.9337431390584113
+        ],
+        "gripper_joint_positions": [
+          -0.02350703626871109,
+          0.023876765742897987
+        ],
+        "closure_proxy_m": 0.05302182026207447,
+        "handle_position_world": [
+          10.92303642575666,
+          9.018592928883272,
+          0.9059208535896137
+        ],
+        "tcp_minus_handle_world_m": [
+          0.06178648872874426,
+          0.011399888265172464,
+          0.0013175702346965856
+        ],
+        "tcp_to_handle_origin_m": 0.06284316695718808,
+        "commanded_ee_pose": [
+          0.38431662437165315,
+          -0.5030314841375756,
+          0.9103311669253376,
+          0.2023917938129257,
+          0.680774044739912,
+          -0.18687087833480942,
+          0.6787219877357912
+        ]
+      },
+      "other_eligible_events": [
+        {
+          "start_frame": 78,
+          "target_frame": 82,
+          "arm": "right",
+          "measured_tcp_base_xyz_wxyz": [
+            0.3502754271030426,
+            -0.3946858048439026,
+            0.9119502305984497,
+            0.7076357030900047,
+            0.05045620369052115,
+            0.7030221247548903,
+            -0.04965657385054892
+          ],
+          "measured_tcp_world_xyz_wxyz": [
+            10.844717836493084,
+            9.004298479576201,
+            0.9119502305984497,
+            -0.0004315835432826658,
+            -0.7048300914367308,
+            0.0006918027389152222,
+            0.709375695488579
+          ],
+          "robot_base_world_xyz_wxyz": [
+            11.24709701538086,
+            8.662888526916504,
+            0.0,
+            -0.07060726856422293,
+            0.0,
+            0.0,
+            0.9975041922848744
+          ],
+          "gripper_joint_positions": [
+            -0.023504963144659996,
+            0.023889852687716484
+          ],
+          "closure_proxy_m": 0.053032420575618744,
+          "handle_position_world": [
+            10.767088215965181,
+            9.004500012089137,
+            0.9059208535906927
+          ],
+          "tcp_minus_handle_world_m": [
+            0.07762962052790279,
+            -0.00020153251293564267,
+            0.006029377007756964
+          ],
+          "tcp_to_handle_origin_m": 0.07786367565021333,
+          "commanded_ee_pose": [
+            0.35623382747535004,
+            -0.39353860477215274,
+            0.9055747469597667,
+            0.7027701930872886,
+            0.050850891785133606,
+            0.7080512410236464,
+            -0.04681540983037553
+          ]
+        },
+        {
+          "start_frame": 187,
+          "target_frame": 191,
+          "arm": "right",
+          "measured_tcp_base_xyz_wxyz": [
+            0.3142232894897461,
+            -0.48414361476898193,
+            0.9021236300468445,
+            0.6944281008445766,
+            0.10987350575087904,
+            0.7043963818458707,
+            -0.09758669342616447
+          ],
+          "measured_tcp_world_xyz_wxyz": [
+            10.897654033733673,
+            9.011840482642619,
+            0.9021236300468445,
+            0.02875028551572571,
+            0.7126751689675557,
+            0.018454093329347058,
+            -0.7006618093340196
+          ],
+          "robot_base_world_xyz_wxyz": [
+            11.362712860107422,
+            8.670004844665527,
+            0.0,
+            -0.17964339119982892,
+            0.0,
+            0.0,
+            0.9837317988142018
+          ],
+          "gripper_joint_positions": [
+            -0.023580927401781082,
+            0.023930318653583527
+          ],
+          "closure_proxy_m": 0.05289437621831894,
+          "handle_position_world": [
+            10.835332492752165,
+            9.007188251729367,
+            0.9059208535907222
+          ],
+          "tcp_minus_handle_world_m": [
+            0.06232154098150744,
+            0.004652230913251287,
+            -0.0037972235438776814
+          ],
+          "tcp_to_handle_origin_m": 0.0626101958903029,
+          "commanded_ee_pose": [
+            0.3117154611057522,
+            -0.48522229778673687,
+            0.9111815749028283,
+            0.7003858841110052,
+            0.10787632906331639,
+            0.6982130177960267,
+            -0.10159179467867452
+          ]
+        }
+      ],
+      "condition_frames": [
+        {
+          "frame": 252,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.3777499288136976,
+            -0.45221672229125587,
+            0.9072384238243101,
+            0.14561192128729394,
+            0.6957810480616322,
+            -0.13077423801749208,
+            0.6910745257989358
+          ]
+        },
+        {
+          "frame": 271,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.4696919234812391,
+            -0.46603743930648955,
+            0.9072384238243103,
+            0.16637393106929715,
+            0.6915235920399877,
+            -0.1516848371555699,
+            0.686372017851653
+          ]
+        },
+        {
+          "frame": 290,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.5513787804573536,
+            -0.48619270942711823,
+            0.9072384238243105,
+            0.18779032628714226,
+            0.6864333521976939,
+            -0.17326979298607023,
+            0.6808242248790577
+          ]
+        },
+        {
+          "frame": 310,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.38304872841931825,
+            -0.5044754975251682,
+            0.9072384238243105,
+            0.20176901448007914,
+            0.6827201147922014,
+            -0.18736705427828582,
+            0.6768131918224841
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_34247/episode_00000000_head_camera_batch_7_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_34247/episode_00000000_wrist_camera_l_batch_7_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_34247/episode_00000000_wrist_camera_r_batch_7_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "audit_preview": "audit/previews/part0_house_34247_traj_0.jpg",
+      "h5_sha256": "acd2e865952bb36975b55a78186fd62fec6a57b81ac57a1bac81307d534f1d13"
+    },
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 60834,
+      "h5": "raw/part0/train/house_60834/trajectories_batch_1_of_20.h5",
+      "trajectory": "traj_1",
+      "observations": 130,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Push the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 129,
+      "grasp_event_count": 1,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 68,
+        "target_frame": 72,
+        "arm": "right",
+        "measured_tcp_base_xyz_wxyz": [
+          0.40946975350379944,
+          -0.31720632314682007,
+          0.9075945019721985,
+          0.11762013634727139,
+          0.698980725079742,
+          -0.10079242694194057,
+          0.6981635454274314
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          1.622505097273875,
+          19.133939753832397,
+          0.9075945019721985,
+          0.5068690992136168,
+          0.5049060304838505,
+          -0.4937641823207606,
+          0.4943182668084686
+        ],
+        "robot_base_world_xyz_wxyz": [
+          1.8002939224243164,
+          19.620433807373047,
+          0.0,
+          0.8074202798421161,
+          0.0,
+          0.0,
+          -0.5899766874205108
+        ],
+        "gripper_joint_positions": [
+          -0.023512249812483788,
+          0.02389625459909439
+        ],
+        "closure_proxy_m": 0.05297286622226238,
+        "handle_position_world": [
+          1.6227199597494493,
+          19.071277160683383,
+          0.9079408535842859
+        ],
+        "tcp_minus_handle_world_m": [
+          -0.000214862475574229,
+          0.0626625931490139,
+          -0.0003463516120874033
+        ],
+        "tcp_to_handle_origin_m": 0.06266391868915835,
+        "commanded_ee_pose": [
+          0.40451328930310027,
+          -0.31678127293385216,
+          0.9132969614427534,
+          0.11924936519146599,
+          0.6943310157436401,
+          -0.10120522296356102,
+          0.7024539360860136
+        ]
+      },
+      "other_eligible_events": [],
+      "condition_frames": [
+        {
+          "frame": 0,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.1773533517993506,
+            0.1643319335412734,
+            0.9075945019721985,
+            -0.20664421848548592,
+            0.6703882868906546,
+            0.22206465761498764,
+            0.6771742756518992
+          ]
+        },
+        {
+          "frame": 22,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.9788855634690066,
+            -0.14239372865346267,
+            0.9075945019721987,
+            -0.08975016193127014,
+            0.6981959099468026,
+            0.10609259491314509,
+            0.7022903538220232
+          ]
+        },
+        {
+          "frame": 44,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.7229722903421845,
+            -0.3326742916201191,
+            0.9075945019721985,
+            0.04217129408968523,
+            0.7057551985313151,
+            -0.02535285206584059,
+            0.7067449430968382
+          ]
+        },
+        {
+          "frame": 67,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.4030843043845955,
+            -0.31453086240714345,
+            0.9075945019721987,
+            0.1174389234808276,
+            0.6990068622904965,
+            -0.10061100254267988,
+            0.6981940503110979
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_60834/episode_00000001_head_camera_batch_1_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_60834/episode_00000001_wrist_camera_l_batch_1_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_60834/episode_00000001_wrist_camera_r_batch_1_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "h5_sha256": "4647f63e4180678fecaaf0a41f0acd8f0fac046bd576e019618a9012464a044b"
+    },
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 20863,
+      "h5": "raw/part0/train/house_20863/trajectories_batch_20_of_20.h5",
+      "trajectory": "traj_1",
+      "observations": 125,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Pull the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 124,
+      "grasp_event_count": 1,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 64,
+        "target_frame": 68,
+        "arm": "left",
+        "measured_tcp_base_xyz_wxyz": [
+          0.5039132237434387,
+          0.40101829171180725,
+          1.0095349550247192,
+          0.5499667448392075,
+          -0.5485058946208338,
+          0.4490131374994991,
+          -0.44166170933195087
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          8.842833931714845,
+          12.99701096264457,
+          1.0095349550247192,
+          -0.7053568483458335,
+          0.7088167055548399,
+          -0.007098732797412007,
+          0.0004499007528772825
+        ],
+        "robot_base_world_xyz_wxyz": [
+          9.124882698059082,
+          12.418052673339844,
+          0.0,
+          0.7800990792585322,
+          0.0,
+          0.0,
+          0.6256559969663764
+        ],
+        "gripper_joint_positions": [
+          -0.029052523896098137,
+          0.029362335801124573
+        ],
+        "closure_proxy_m": 0.04199076630175114,
+        "handle_position_world": [
+          8.839180054242737,
+          13.092014394875884,
+          1.0097568246798818
+        ],
+        "tcp_minus_handle_world_m": [
+          0.0036538774721073253,
+          -0.09500343223131402,
+          -0.0002218696551625765
+        ],
+        "tcp_to_handle_origin_m": 0.09507393008840505,
+        "commanded_ee_pose": [
+          0.5015885548194063,
+          0.401352145655105,
+          1.0161731643025242,
+          0.5537515562935128,
+          -0.5455098116941088,
+          0.4457365479578706,
+          -0.4439562918380271
+        ]
+      },
+      "other_eligible_events": [],
+      "condition_frames": [
+        {
+          "frame": 0,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.385261710555648,
+            -0.00798177433108549,
+            1.009534955024719,
+            0.491991917839859,
+            -0.48964533249934905,
+            0.5125611792191713,
+            -0.5054428144699575
+          ]
+        },
+        {
+          "frame": 21,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            1.0780092281710179,
+            0.15692437068481802,
+            1.0095349550247195,
+            0.5075277433311287,
+            -0.5054044745321519,
+            0.4970290043889039,
+            -0.48984086769916046
+          ]
+        },
+        {
+          "frame": 42,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.8427555268883413,
+            0.27491835991234037,
+            1.0095349550247195,
+            0.520586765335305,
+            -0.5186586294872297,
+            0.4831818913611873,
+            -0.4759389726391173
+          ]
+        },
+        {
+          "frame": 63,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.49496678069262323,
+            0.4014950672479154,
+            1.0095349550247192,
+            0.5501094929776009,
+            -0.5486510193466364,
+            0.4488357974257873,
+            -0.4414838973903593
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_20863/episode_00000001_head_camera_batch_20_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_20863/episode_00000001_wrist_camera_l_batch_20_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_20863/episode_00000001_wrist_camera_r_batch_20_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "h5_sha256": "42caab64e497c45c629d9b35f534e48c2d4df36df14e33f8482a615b676dacd8"
+    },
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 55290,
+      "h5": "raw/part0/train/house_55290/trajectories_batch_17_of_20.h5",
+      "trajectory": "traj_3",
+      "observations": 198,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Push the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 197,
+      "grasp_event_count": 3,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 154,
+        "target_frame": 158,
+        "arm": "left",
+        "measured_tcp_base_xyz_wxyz": [
+          0.4866729974746704,
+          0.2590446174144745,
+          0.9143880009651184,
+          0.5148603990603247,
+          -0.5089713408620864,
+          0.49045190924172966,
+          -0.48510191545863357
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          9.605787002565496,
+          2.8304332115781983,
+          0.9143880009651184,
+          0.37530731143392804,
+          -0.38170363548876957,
+          -0.5948926253976128,
+          0.5996244832279853
+        ],
+        "robot_base_world_xyz_wxyz": [
+          9.9562406539917,
+          3.256035089492798,
+          0.0,
+          -0.1951381259880914,
+          0.0,
+          0.0,
+          0.9807757703908961
+        ],
+        "gripper_joint_positions": [
+          -0.023441342636942863,
+          0.02375366911292076
+        ],
+        "closure_proxy_m": 0.05319236032664776,
+        "handle_position_world": [
+          9.549097668372804,
+          2.807603891941752,
+          0.9144703787527851
+        ],
+        "tcp_minus_handle_world_m": [
+          0.05668933419269173,
+          0.02282931963644641,
+          -8.237778766673198e-05
+        ],
+        "tcp_to_handle_origin_m": 0.061113543772011995,
+        "commanded_ee_pose": [
+          0.48582197516136283,
+          0.25961431411332747,
+          0.9192434642433619,
+          0.5179596901945337,
+          -0.5065959981396446,
+          0.48754769672079784,
+          -0.4872119635484385
+        ]
+      },
+      "other_eligible_events": [
+        {
+          "start_frame": 78,
+          "target_frame": 82,
+          "arm": "left",
+          "measured_tcp_base_xyz_wxyz": [
+            0.4829986095428467,
+            0.1222187727689743,
+            0.9144489765167236,
+            0.42950883588846017,
+            -0.42635795554574796,
+            0.5669668923595362,
+            -0.5588287721697587
+          ],
+          "measured_tcp_world_xyz_wxyz": [
+            10.002961400432847,
+            2.896866929547854,
+            0.9144489765167236,
+            -0.49513124072096054,
+            0.5036226381099783,
+            0.49959663897200685,
+            -0.5016098993970736
+          ],
+          "robot_base_world_xyz_wxyz": [
+            10.435067176818848,
+            3.144878387451172,
+            0.0,
+            -0.1361820368542955,
+            0.0,
+            0.0,
+            0.990683830915906
+          ],
+          "gripper_joint_positions": [
+            -0.023439008742570877,
+            0.023754211142659187
+          ],
+          "closure_proxy_m": 0.05320844240486622,
+          "handle_position_world": [
+            9.943715039549074,
+            2.9028665081438283,
+            0.9144698166181782
+          ],
+          "tcp_minus_handle_world_m": [
+            0.05924636088377255,
+            -0.005999578595974331,
+            -2.084010145453341e-05
+          ],
+          "tcp_to_handle_origin_m": 0.059549363183910846,
+          "commanded_ee_pose": [
+            0.4819956730146533,
+            0.12211811169483841,
+            0.9190384515210489,
+            0.432343003215792,
+            -0.4238360810718795,
+            0.5644093319678302,
+            -0.5611458009640706
+          ]
+        },
+        {
+          "start_frame": 115,
+          "target_frame": 119,
+          "arm": "left",
+          "measured_tcp_base_xyz_wxyz": [
+            0.48732563853263855,
+            0.1706145703792572,
+            0.9143509864807129,
+            0.4622657251125771,
+            -0.4574792039658262,
+            0.5407717171882306,
+            -0.5334689561860462
+          ],
+          "measured_tcp_world_xyz_wxyz": [
+            9.803072817050007,
+            2.8944189147935107,
+            0.9143509864807129,
+            0.45670545752949077,
+            -0.46465293581097644,
+            -0.5346203526000055,
+            0.5382368000154439
+          ],
+          "robot_base_world_xyz_wxyz": [
+            10.216270446777344,
+            3.2040369510650635,
+            0.0,
+            -0.1525518553215079,
+            0.0,
+            0.0,
+            0.9882954676805746
+          ],
+          "gripper_joint_positions": [
+            -0.02344408631324768,
+            0.023752184584736824
+          ],
+          "closure_proxy_m": 0.05312436260282993,
+          "handle_position_world": [
+            9.74440458474805,
+            2.879367858376271,
+            0.9144699552819526
+          ],
+          "tcp_minus_handle_world_m": [
+            0.05866823230195628,
+            0.015051056417239472,
+            -0.0001189688012397383
+          ],
+          "tcp_to_handle_origin_m": 0.06056822545103084,
+          "commanded_ee_pose": [
+            0.48614306584095246,
+            0.1717950935982286,
+            0.9194869273637594,
+            0.4657728075966524,
+            -0.4551460496916327,
+            0.53743724056772,
+            -0.5357788513972798
+          ]
+        }
+      ],
+      "condition_frames": [
+        {
+          "frame": 137,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.5072238247689427,
+            0.219553085960564,
+            0.9143880009651184,
+            0.5174152505912522,
+            -0.5115545301489638,
+            0.48775697204845875,
+            -0.48237595022739654
+          ]
+        },
+        {
+          "frame": 142,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.6156794341842904,
+            0.24376107120455837,
+            0.9143880009651182,
+            0.5112217827265768,
+            -0.5052929185245707,
+            0.49424079919279174,
+            -0.48893495249169167
+          ]
+        },
+        {
+          "frame": 147,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.6018086687043755,
+            0.26051676967643966,
+            0.9143880009651186,
+            0.5110252440871461,
+            -0.5050942480049505,
+            0.4944438307129755,
+            -0.48914036718294324
+          ]
+        },
+        {
+          "frame": 153,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.4776700526710229,
+            0.2582680047906424,
+            0.9143880009651186,
+            0.5144656409405933,
+            -0.5085722329406072,
+            0.49086575046504605,
+            -0.48552054868334493
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_55290/episode_00000003_head_camera_batch_17_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_55290/episode_00000003_wrist_camera_l_batch_17_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_55290/episode_00000003_wrist_camera_r_batch_17_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "h5_sha256": "31a7442c5a28c74d0c52179fb7f7f0d8d1e6ca2949f700a112c530f45dcf9614"
+    },
+    {
+      "source_split": "train",
+      "part": 0,
+      "house": 55956,
+      "h5": "raw/part0/train/house_55956/trajectories_batch_3_of_20.h5",
+      "trajectory": "traj_0",
+      "observations": 271,
+      "recorded_success": true,
+      "valid_trajectory_mask": true,
+      "task_description": "Pull the door open",
+      "policy_dt_ms": 100.0,
+      "first_success_frame": 270,
+      "grasp_event_count": 2,
+      "event_definition": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+      "interaction_event": {
+        "start_frame": 228,
+        "target_frame": 232,
+        "arm": "right",
+        "measured_tcp_base_xyz_wxyz": [
+          0.3452063202857971,
+          -0.45558473467826843,
+          0.9081881642341614,
+          0.1567564633318452,
+          0.692442786545624,
+          -0.15447807574656855,
+          0.687085819005356
+        ],
+        "measured_tcp_world_xyz_wxyz": [
+          10.074891225611312,
+          6.228267442212442,
+          0.9081881642341614,
+          0.4305985479965074,
+          0.5637114000893289,
+          -0.4307783025347953,
+          0.5578928229847274
+        ],
+        "robot_base_world_xyz_wxyz": [
+          10.198299407958984,
+          6.7863850593566895,
+          0.0,
+          0.9077030486317701,
+          0.0,
+          0.0,
+          -0.4196131259917763
+        ],
+        "gripper_joint_positions": [
+          -0.023530203849077225,
+          0.02388896979391575
+        ],
+        "closure_proxy_m": 0.05298645235598087,
+        "handle_position_world": [
+          10.093453742463671,
+          6.166914655761666,
+          0.9059208535893565
+        ],
+        "tcp_minus_handle_world_m": [
+          -0.018562516852359323,
+          0.0613527864507768,
+          0.0022673106448048985
+        ],
+        "tcp_to_handle_origin_m": 0.06413947407586681,
+        "commanded_ee_pose": [
+          0.34447046858952457,
+          -0.45376387727773526,
+          0.9115036779433977,
+          0.15753841571671656,
+          0.6902123634925579,
+          -0.15413763425095964,
+          0.6892242962657377
+        ]
+      },
+      "other_eligible_events": [
+        {
+          "start_frame": 81,
+          "target_frame": 85,
+          "arm": "right",
+          "measured_tcp_base_xyz_wxyz": [
+            0.3313913941383362,
+            -0.44208282232284546,
+            0.9165416955947876,
+            0.6977658894542799,
+            0.11922182188366359,
+            0.6944091346616164,
+            -0.12924733807441785
+          ],
+          "measured_tcp_world_xyz_wxyz": [
+            10.130234347650639,
+            5.9942574331098175,
+            0.9165416955947876,
+            0.5008785403693445,
+            0.4925375529519864,
+            0.5038101309489758,
+            -0.5026955327857212
+          ],
+          "robot_base_world_xyz_wxyz": [
+            10.425984382629395,
+            6.460936546325684,
+            0.0,
+            0.8230396011789238,
+            0.0,
+            0.0,
+            -0.5679839917561392
+          ],
+          "gripper_joint_positions": [
+            -0.02349497191607952,
+            0.023803522810339928
+          ],
+          "closure_proxy_m": 0.0531151108443737,
+          "handle_position_world": [
+            10.130069988162731,
+            5.917086873630523,
+            0.9059208535897747
+          ],
+          "tcp_minus_handle_world_m": [
+            0.00016435948790771704,
+            0.07717055947929463,
+            0.010620842005012898
+          ],
+          "tcp_to_handle_origin_m": 0.07789816781724755,
+          "commanded_ee_pose": [
+            0.33423672104828883,
+            -0.44836519109363593,
+            0.9123706307995104,
+            0.6952086076310189,
+            0.12112179165623517,
+            0.6966369545794812,
+            -0.12927280060379884
+          ]
+        }
+      ],
+      "condition_frames": [
+        {
+          "frame": 210,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.39734157968177974,
+            -0.4070559023379232,
+            0.9081881642341614,
+            0.09992622901276688,
+            0.7027726766538663,
+            -0.09721652881167504,
+            0.6976204270445763
+          ]
+        },
+        {
+          "frame": 215,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.4598218766549205,
+            -0.4342874313845968,
+            0.9081881642341616,
+            0.12486403254951066,
+            0.6988370594549227,
+            -0.12234072444541094,
+            0.6935910068981891
+          ]
+        },
+        {
+          "frame": 221,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.43599690366862276,
+            -0.447626005444393,
+            0.9081881642341614,
+            0.14396360658339158,
+            0.6951934047142679,
+            -0.1415860818273295,
+            0.6898796934640644
+          ]
+        },
+        {
+          "frame": 227,
+          "target_tcp_in_observation_base_xyz_wxyz": [
+            0.3376168178930148,
+            -0.4561275507987421,
+            0.9081881642341616,
+            0.15727992731545468,
+            0.6923248844799744,
+            -0.1550056220116585,
+            0.6869661825288158
+          ]
+        }
+      ],
+      "videos": {
+        "head_camera": "raw/part0/train/house_55956/episode_00000000_head_camera_batch_3_of_20.mp4",
+        "wrist_camera_l": "raw/part0/train/house_55956/episode_00000000_wrist_camera_l_batch_3_of_20.mp4",
+        "wrist_camera_r": "raw/part0/train/house_55956/episode_00000000_wrist_camera_r_batch_3_of_20.mp4"
+      },
+      "pose_convention": "xyz, quaternion wxyz; measured TCP is robot-base relative",
+      "part_relative_label_status": "World translation relative to handle origin only; handle rotation is unavailable offline",
+      "replay_status": "Not replay validated; old scene/robot asset compatibility remains to be checked",
+      "video_observation_counts_checked": true,
+      "h5_sha256": "cc2d6058e6899be46c5a48b45ac078ae2c5814e275e4907c53b370028d033477"
+    }
+  ],
+  "result_authority": {
+    "review_results": "results.json",
+    "review_policy": "audit_policy.json",
+    "review_type": "post-hoc numerical reproduction review",
+    "original_worker_failure_cases": [
+      2,
+      3,
+      5
+    ],
+    "original_worker_failure_reason": "Reference final TCP-error agreement exceeded 1e-8m after all four 120-step traces had been written",
+    "original_worker_statuses_changed": false,
+    "contact_success_definition_changed": false
+  }
+}

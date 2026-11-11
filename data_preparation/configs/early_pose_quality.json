@@ -1,0 +1,10 @@
+{
+  "name": "Initial-grasp pose quality view v1",
+  "maximum_source_opening_fraction": 0.10,
+  "require_no_prior_major_opening": true,
+  "conditioning_samples": 4,
+  "minimum_grasp_phase_samples": 3,
+  "label_definition": "Earliest eligible completed GRASP_HANDLE event before source opening exceeds 10%, with source stable-grasp flags and measured gripper closure; exclude events after prior major opening in the primary view.",
+  "label_confidence": "Source phase/closure/flag heuristic only. Source grasp flags do not establish physical bilateral force, retention, native replay success or firm-grasp ground truth.",
+  "scope": "Additional Train and Val label-quality views only. Original raw data, indices, Val inventory and validation sources remain unchanged. No training or policy evaluation."
+}

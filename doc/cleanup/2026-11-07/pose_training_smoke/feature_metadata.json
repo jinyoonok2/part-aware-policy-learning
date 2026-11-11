@@ -1,0 +1,28 @@
+{
+  "complete": true,
+  "role": "train",
+  "index": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_train_test_v1_20261107/train_early_pose_targets.jsonl",
+  "index_sha256": "b4c7ce5cfdbd312422e0876025ae1e5541acdf57917c17c312b6e2ea899343cf",
+  "target_frame": "future initial-grasp TCP in current observation robot-base frame, xyz+wxyz",
+  "point_rule": "mean of finite visible current-frame recorded door_handle segmentation points, normalized xy",
+  "encoder_path": "/bigtemp/xna8aw/part-aware-policy-learning/models/dinov2-base/f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+  "encoder_sha256": "d73036b56966966d07975d696bde331762f37297e2f095de8cea0040c3aa0841",
+  "observations": 4,
+  "full_role_observations": 19464,
+  "smoke_limited": true,
+  "camera_order": [
+    "head_camera",
+    "wrist_camera_l",
+    "wrist_camera_r"
+  ],
+  "visual_transform": "whole RGB image stretched to 224x224, ImageNet normalization",
+  "raw_hashes_reverified": false,
+  "inputs": "current RGB, current qpos excluding global base, current visible part points, push/pull task",
+  "supervision": "future early initial-grasp TCP; source metadata heuristic, not force-certified firm grasp",
+  "elapsed_seconds": 13.037583180936053,
+  "files_sha256": {
+    "features.npy": "b719ac18735a11d198205e3d7247878ba89a0dab8953fcb20f56f8ecdc26120f",
+    "arrays.npz": "d7e0452dfdc7b23b43dd152b6f207033219cfcbb5deac98824c1ce8979b49dd4",
+    "examples.json": "a759fe847b9809f657d881b3e8d5f5fcf44b9a463a343296f92966f47c98265b"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "grasp_cpu_tests_passed": 46,
+  "learning_cpu_tests_passed": 16,
+  "data_preparation_cpu_checks": "Full suite passed:47 tests, four intentionally skipped; latest seven export/finalization checks also passed.",
+  "retained_contact_trace_recount": {
+    "reference": {
+      "final_bilateral_contact": 7,
+      "uninterrupted_last_ten": 7
+    },
+    "combined": {
+      "final_bilateral_contact": 10,
+      "uninterrupted_last_ten": 10
+    },
+    "episodes": 10,
+    "frames_per_trace": 120
+  },
+  "raw_house_symlink_targets_checked": 110,
+  "missing_raw_house_targets": 0,
+  "existing_test_trajectories": 197,
+  "test_400_plan": "Metadata only; no simulation jobs submitted",
+  "full_pose_training_submitted": false,
+  "gpu_policy_rollout_validation_performed": false,
+  "milestone_pdf_build": "Passed; five pages including appendix",
+  "artifact_cleanup": "26 folders reversibly archived; permanent deletion not performed",
+  "actual_train_data_smoke": {
+    "frozen_visual_encoder": "Local pretrained DINOv2-base",
+    "observations": 4,
+    "optimizer_updates": 4,
+    "status": "complete",
+    "test_accessed": false,
+    "performance_claim": false,
+    "checkpoint_written": true,
+    "offline_train_evaluation": "Passed; checkpoint reload, four predictions and pose-error report"
+  },
+  "learning_reporting_regression": "Boolean accuracy summaries convert to numeric values before percentiles; passed"
+}

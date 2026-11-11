@@ -1,0 +1,19 @@
+{
+  "state": "built_and_installed",
+  "curobo_revision": "417c995647fcb173a2bc094d1284b2a4f4b000ad",
+  "source_directory": "/bigtemp/xna8aw/part-aware-policy-learning/cache/native_expert_build/curobo_417c995",
+  "source_tree": "6a2ea7ce2b3dd3c543850ac8f4908579d61a7d02",
+  "installed_record_sha256": "d9c46ff94349b533deb23af18e189013b710013dd71de094232370dacd99446e",
+  "wheel": "/bigtemp/xna8aw/part-aware-policy-learning/runs/val_test_expert_generation_pilot_20261107_01/audit/curobo_wheels/nvidia_curobo-0.0.post1.dev60-cp311-cp311-linux_x86_64.whl",
+  "wheel_sha256": "68399ff070dca0014c1ac45ea782a258948b01e1f5c57f1feffdad7beb358ce3",
+  "existing_versions_unchanged": true,
+  "added_distribution": "nvidia-curobo",
+  "installed_version": "0.0.post1.dev60",
+  "cuda_arch_list": "8.0;8.6;8.9;9.0+PTX",
+  "torch_version": "2.7.1+cu128",
+  "mujoco_version": "3.4.0",
+  "numpy_version": "2.4.6",
+  "gpu_runtime_verified": false,
+  "training_started": false,
+  "model_inference_used": false
+}

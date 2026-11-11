@@ -1,0 +1,42 @@
+[
+  {
+    "path": "configs/candidate_search_split_v1.json",
+    "sha256": "f2e9b5525455e9f41c7dca2821a2688312d05fa00a2aa50630faba9e573aabd3"
+  },
+  {
+    "path": "configs/benchmark_expert_verification_v1.json",
+    "sha256": "b013885de94c0dc39b8d6f239c55e573a3a4a692ef1e07dbe31d13a17760a78e"
+  },
+  {
+    "path": "configs/benchmark_test_expansion_v1.json",
+    "sha256": "90fe679df6eff15e140654347390f48dae615cf91ed1b2628666b48194557af7"
+  },
+  {
+    "path": "configs/interaction_pose_dataset_v1.json",
+    "sha256": "eba63bba458db823e99cbcd5d2f006951194428d6a654d1c53f7144468b23bde"
+  },
+  {
+    "path": "configs/final_pose_evaluation_v1.json",
+    "sha256": "055eb3dce936e9dd65e29badb4b6a9fa61b9cf9f2f31b3a0c67f2d2c64e982e2"
+  },
+  {
+    "path": "configs/benchmark_expert_verification_400_v1.json",
+    "sha256": "fe5e2c4b186b6d6b589e037cde3be32c0f515338543e127a68e16fc5a65d5f85"
+  },
+  {
+    "path": "configs/expert_validation_pilot_v1.json",
+    "sha256": "bca0b6b85d9984e6b6d5adc3bbf6b015837b07c00210862c91de9e920ef3bce6"
+  },
+  {
+    "path": "configs/final_evaluation_reservations_legacy_200_20261107.json",
+    "sha256": "ee43d1281fc76193aa090b22bf92a4af68279e0421f7c17711f906bc0ccc5bef"
+  },
+  {
+    "path": "configs/val_test_expert_generation_v1.json",
+    "sha256": "3504347d0ad0c6c9b7a06f4b8d986961a49f5055b973df3f2deedbb3e4c13e96"
+  },
+  {
+    "path": "configs/early_pose_quality_v1.json",
+    "sha256": "91ba63d08f6d022616760ef67ced317a56a1899ebe9a80b5dc68cef6bf88b414"
+  }
+]

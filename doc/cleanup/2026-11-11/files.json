@@ -1,0 +1,398 @@
+{
+  "project": "part-aware-policy-learning",
+  "date": "2026-11-11",
+  "scope": "Workspace source cleanup before user commit; experiment data and frozen run sources preserved",
+  "files": [
+    {
+      "path": "data_preparation/finalize_test_set.py",
+      "bytes": 8035,
+      "sha256": "97474c9217aadc1ba740363025287e6b1eacb95035fcbdfcac9c0bb2086182c4",
+      "reason": "superseded merged-Test workflow",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/data_preparation/finalize_test_set.py"
+    },
+    {
+      "path": "data_preparation/slurm/finalize_evaluation_set.sh",
+      "bytes": 1055,
+      "sha256": "a52a5bbcef9cb695fe44ca911cd7cc1d2feb2dd7faab5a15cf5c0450a76cb39f",
+      "reason": "superseded merged-Test workflow",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/data_preparation/slurm/finalize_evaluation_set.sh"
+    },
+    {
+      "path": "data_preparation/test_test_set_finalization.py",
+      "bytes": 2152,
+      "sha256": "6af994c4541c426d5ffa686d48e85aca5d7f172bfe1f2babd5a794d432e3efdc",
+      "reason": "superseded merged-Test workflow",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/data_preparation/test_test_set_finalization.py"
+    },
+    {
+      "path": "doc/CoRL_camera_ready_template_2024.zip",
+      "bytes": 14717,
+      "sha256": "b5d009b0e8e2168ffb166361d8461f683ccad02c1e48fa644414f1fc26c5586d",
+      "reason": "unused original conference-template archive; edited paper sources retained",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/CoRL_camera_ready_template_2024.zip"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/00/left_trace.json",
+      "bytes": 1087016,
+      "sha256": "e18165cc8bf7c74c6d46c31d5ba9f1c7c4a8a3a992f49e7b2cbebcbb18d5b87a",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/00/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/00/right_trace.json",
+      "bytes": 747150,
+      "sha256": "291cfa2de7527d40ffebc52bc4f559e105c552fdf3e527d6257cf82063267369",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/00/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/01/left_trace.json",
+      "bytes": 724742,
+      "sha256": "2ebe6f0dd21be40e7080ac2c5caae8ae4d988c3a94be125d6754c7973d9cd09a",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/01/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/01/right_trace.json",
+      "bytes": 1024353,
+      "sha256": "359d563d817bf48e626d7d9370ec881e8fa9fef610f4e7e56c88321a1434afd7",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/01/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/02/left_trace.json",
+      "bytes": 296726,
+      "sha256": "00abb7b2be7cad0bbf91f79b7aaf717dc4251fdc9be6504cb60a8a60bb796407",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/02/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/02/right_trace.json",
+      "bytes": 410785,
+      "sha256": "310267c792290fd0b05a6359026809ea71ff13f00b175a3cef45946f8d652a8a",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/02/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/03/left_trace.json",
+      "bytes": 1113300,
+      "sha256": "3e2cfb2dbc2d980f34f83b5f580ad6d60cbdf9216108bf5a2c390b7f6297798f",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/03/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/03/right_trace.json",
+      "bytes": 753701,
+      "sha256": "35a6dcd98f7890dbccfee9192f9fcb6e6bb439104c553534d05e2213e4f7df4a",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/03/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/04/left_trace.json",
+      "bytes": 379570,
+      "sha256": "755063ac078416a1c71b0e74db30dbd41f655a24d841aa0979620e1c29d67821",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/04/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/04/right_trace.json",
+      "bytes": 307179,
+      "sha256": "ab57c845669f5b29bf01b58cb2610cae7f4e24d9650026dcccf4590ac94ba001",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/04/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/05/left_trace.json",
+      "bytes": 744899,
+      "sha256": "0660d530a1df4f7f0d2532fd25d00d9ae3c34b44ab59fd94caaca14c9c8486cf",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/05/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/05/right_trace.json",
+      "bytes": 1056211,
+      "sha256": "41b3484193d9bcbea9eebddfe349ff04f6c4bd4d8290abe53de2f5a66878fd2f",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/05/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/06/left_trace.json",
+      "bytes": 751021,
+      "sha256": "a77fbf2bdfbceec83f3a8fc182217ad21484c20120f7e2abdfc7fc704fa27759",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/06/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/06/right_trace.json",
+      "bytes": 970895,
+      "sha256": "9b52564a4aeac5c08ba141c8a1f271d3512659ff9a9435f981be84d4585e7a6e",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/06/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/07/left_trace.json",
+      "bytes": 956973,
+      "sha256": "05817e480d83867f58e8ab824d9c05df2b92f7ed1722cc50b54155a4a0cb81f4",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/07/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/07/right_trace.json",
+      "bytes": 752051,
+      "sha256": "b22869c3c3598f6b39220aae76e52ca727c6adefc82bbdb0a6b4bb41976019f6",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/07/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/08/left_trace.json",
+      "bytes": 973565,
+      "sha256": "82fccc4a736aeaf4d8426fe07ac0e78cfd336d30c0306f16dc5aea91805793a2",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/08/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/08/right_trace.json",
+      "bytes": 753871,
+      "sha256": "f86dfe6ffd4cc74c8a5a2e68e600e42c56246d51d473ed43ca1aa8ce3fd9995e",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/08/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/09/left_trace.json",
+      "bytes": 749194,
+      "sha256": "4f62ea3fe23d45ad7acc297154695ae8a81d62d6bb4e0910043a007a522bce52",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/09/left_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/09/right_trace.json",
+      "bytes": 1018591,
+      "sha256": "6aa2c14d6ea1a9ba4b7116075246b9001b25e43e7d67ac09888e9ff64867e814",
+      "reason": "historical raw contact trace; keep local rather than commit",
+      "retained_fixture": null,
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/09/right_trace.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/00/decoded_config.json",
+      "bytes": 43259,
+      "sha256": "87878b8ac52c873b2ac8be92e4f4ba872ad8c3c79023e086589c79603b9240aa",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/00/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/00/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/01/decoded_config.json",
+      "bytes": 17103,
+      "sha256": "7f7bcd6b8e41a2978de6eab88ee45fd854b0867f92a059e99eb8f7d210fd3d55",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/01/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/01/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/02/decoded_config.json",
+      "bytes": 25725,
+      "sha256": "c162f2bdebda8b1a58d617b182226e4cf684bbf37af5982c400a43f1f624f0b0",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/02/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/02/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/03/decoded_config.json",
+      "bytes": 30823,
+      "sha256": "5ee467d7340efd794f3e9af3f15be2bd924f4148306d09bc68100e2d3a1cbb05",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/03/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/03/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/04/decoded_config.json",
+      "bytes": 32732,
+      "sha256": "914eea1ae2098ed1d22a17529cc928d2a3468adff7422204b44109ea164a4940",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/04/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/04/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/05/decoded_config.json",
+      "bytes": 25806,
+      "sha256": "38816a6f016616981b8b12ca54d4e37284b692f758b474c593d972d889f1d11d",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/05/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/05/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/06/decoded_config.json",
+      "bytes": 30498,
+      "sha256": "26f7da52183e1ed26764925bf9093726ffacfde222dc2c0e201bfc77391fd661",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/06/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/06/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/07/decoded_config.json",
+      "bytes": 41440,
+      "sha256": "8ca97cd9331bb0956cda2ef59ebc00bb6511f721556b4dda1e9351a09600b1d6",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/07/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/07/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/08/decoded_config.json",
+      "bytes": 21262,
+      "sha256": "fcec1594f1f197da02fa5e00538cdc267bd68c73511ffd0b7da142e1857296f3",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/08/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/08/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/09/decoded_config.json",
+      "bytes": 34568,
+      "sha256": "f508d24267e26491a8f61a956de5fffdebcc44268261c8a63f54f6f8616c1280",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/09/decoded_config.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/09/decoded_config.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/00/episode.json",
+      "bytes": 80113,
+      "sha256": "129fa53285c36e8277c69ef52bf66421d1eacbb91f1fd2d0e87469d24993c88a",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/00/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/00/episode.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/01/episode.json",
+      "bytes": 27794,
+      "sha256": "91e7d55afd71aff193ddb0371055e9f26743a4ae62dd06c5fb8b93fb2212e24d",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/01/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/01/episode.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/02/episode.json",
+      "bytes": 45032,
+      "sha256": "351cebbe40758aa8dbbf9cded09a3e59476783eafca52e8a3dcec437f7da27f0",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/02/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/02/episode.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/03/episode.json",
+      "bytes": 55237,
+      "sha256": "f49128ea08f304922b07b9813a58a25e97ef462ab0b859224211b6b4910e6d9b",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/03/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/03/episode.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/04/episode.json",
+      "bytes": 59054,
+      "sha256": "8eeb1c9101ae7853809170bf4290eac60ca70f3526d3e34b979a5c7b970cd10d",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/04/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/04/episode.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/05/episode.json",
+      "bytes": 45198,
+      "sha256": "59f629a767599627ecc0b520864cbd56586e015f40d65be90974d347fec68aa1",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/05/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/05/episode.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/06/episode.json",
+      "bytes": 54580,
+      "sha256": "3f34e8a62e9937f304a89f59b9fc858e31d95bc28ef24d64c64213e6beb65493",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/06/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/06/episode.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/07/episode.json",
+      "bytes": 76464,
+      "sha256": "9cc3419dca0258b22f0b8e5677ba9947eb421ba3377bc40538a96e983e4eea5d",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/07/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/07/episode.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/08/episode.json",
+      "bytes": 36105,
+      "sha256": "23f7dc02262f19aa765b348306c0554363b600dcc7af025315dc8fa511cfcb82",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/08/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/08/episode.json"
+    },
+    {
+      "path": "doc/cleanup/2026-11-07/baseline_pilot_10/09/episode.json",
+      "bytes": 62715,
+      "sha256": "cd50990b2156376a045d552cc51ae5c12258439309823a1a8c7c047b142ece5a",
+      "reason": "byte-identical copy of retained reproduction fixture",
+      "retained_fixture": "grasp/fixtures/recovery_10/09/episode.json",
+      "local_archive": "outputs/cleanup_20261111/doc/cleanup/2026-11-07/baseline_pilot_10/09/episode.json"
+    }
+  ],
+  "total_bytes": 16443260,
+  "protected_run_metadata_sha256": {
+    "runs/pose_test197_20261108_01/source_manifest.json": "c73598555d839087a8ba02ffc0196350cca26e052194675cf4d8c2604304a9d4",
+    "runs/pose_oracle_test197_20261110_01/source_manifest.json": "7aa32c77e2148cc2dbbd9b20a0354ee496e1e278342e6342dc01b36778178227",
+    "data/benchmark_eval400_v1_20261108/study.json": "27d5632236eaf8a5c71e69f6893740aa84c12c03ea39bbf747b1474abdb34381"
+  },
+  "status": "completed_with_reversible_local_archive",
+  "configuration_cleanup": {
+    "path": "configs/train_test_protocol_v1.json",
+    "previous_local_copy": "outputs/cleanup_20261111/configs/train_test_protocol_v1.json",
+    "previous_sha256": "a6f1e5f40b3e8d9b6be7e10d758f0724e41be588ffc51fdf735b1e7b0bd43c01",
+    "removed": [
+      "training.last_history_audit",
+      "test.legacy_combined_test_preparation",
+      "test.work_status",
+      "stale evaluation and collection status/job fields"
+    ],
+    "preserved": "Train/Test roles, house reservations, model recipe, checkpoint, fixed cohort membership, seeds and budgets"
+  },
+  "validation": {
+    "cpu_suites": {
+      "data_preparation": {
+        "run": 57,
+        "passed": 53,
+        "skipped": 4
+      },
+      "grasp": {
+        "run": 46,
+        "passed": 46,
+        "skipped": 0
+      },
+      "pose_learning": {
+        "run": 26,
+        "passed": 26,
+        "skipped": 0
+      }
+    },
+    "skip_reason": "Fault-injection tests require an explicitly prepared disposable /tmp dataset"
+  }
+}

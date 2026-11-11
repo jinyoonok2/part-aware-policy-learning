@@ -1,0 +1,7 @@
+{
+  "state": "complete",
+  "completed_updates": 4,
+  "requested_updates": 4,
+  "latest_checkpoint": "/tmp/part_pose_learning_actual_train_20261108/checkpoints/step00004.pt",
+  "test_accessed": false
+}

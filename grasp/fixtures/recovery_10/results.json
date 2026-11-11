@@ -1,0 +1,533 @@
+{
+  "state": "review_passed",
+  "aggregate": {
+    "reference": {
+      "cases": 10,
+      "final_contact": 7,
+      "sustained_verified": 7,
+      "final_ten_all_contact": 7
+    },
+    "close20mm_only": {
+      "cases": 10,
+      "final_contact": 8,
+      "sustained_verified": 8,
+      "final_ten_all_contact": 8
+    },
+    "base_recovery_only": {
+      "cases": 10,
+      "final_contact": 9,
+      "sustained_verified": 9,
+      "final_ten_all_contact": 9
+    },
+    "close20mm_and_base_recovery": {
+      "cases": 10,
+      "final_contact": 10,
+      "sustained_verified": 10,
+      "final_ten_all_contact": 10
+    }
+  },
+  "cases": [
+    {
+      "case": 0,
+      "house": 93349,
+      "original_case_state": "complete",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 0.0,
+          "tcp_orientation_deg": 0.0,
+          "handle_position_m": 0.0,
+          "base_xy_m": 0.0,
+          "base_yaw_rad": 0.0
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.009118651104952262,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.009118651104952262,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.009118651104952262,
+          "base_repositions": 0
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.009118651104952262,
+          "base_repositions": 0
+        }
+      }
+    },
+    {
+      "case": 1,
+      "house": 2188,
+      "original_case_state": "complete",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 0.0,
+          "tcp_orientation_deg": 0.0,
+          "handle_position_m": 0.0,
+          "base_xy_m": 0.0,
+          "base_yaw_rad": 0.0
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": false,
+          "final_ten_contact_fraction": 0.0,
+          "ever_verified": false,
+          "first_hold_step": null,
+          "max_base_displacement_m": 0.0743919097121193,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.16198567462769217,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": false,
+          "final_ten_contact_fraction": 0.0,
+          "ever_verified": false,
+          "first_hold_step": null,
+          "max_base_displacement_m": 0.0743919097121193,
+          "base_repositions": 0
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.16198567462769217,
+          "base_repositions": 0
+        }
+      }
+    },
+    {
+      "case": 2,
+      "house": 20276,
+      "original_case_state": "runtime_or_label_error",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 2.276182074464797e-05,
+          "tcp_orientation_deg": 0.021244596519594025,
+          "handle_position_m": 1.800341708522353e-07,
+          "base_xy_m": 4.9666201799375463e-05,
+          "base_yaw_rad": 6.847004078311403e-06
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.14749734909887155,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.14749734909887155,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.14749734909887155,
+          "base_repositions": 0
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.14749734909887155,
+          "base_repositions": 0
+        }
+      }
+    },
+    {
+      "case": 3,
+      "house": 18548,
+      "original_case_state": "runtime_or_label_error",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 4.570915364331528e-06,
+          "tcp_orientation_deg": 0.002176378698161805,
+          "handle_position_m": 4.319398119817357e-06,
+          "base_xy_m": 7.577771311886592e-06,
+          "base_yaw_rad": 2.7686569969986863e-07
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.1192274986876573,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.1192274986876573,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.1192274986876573,
+          "base_repositions": 0
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.1192274986876573,
+          "base_repositions": 0
+        }
+      }
+    },
+    {
+      "case": 4,
+      "house": 94658,
+      "original_case_state": "complete",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 0.0,
+          "tcp_orientation_deg": 0.0,
+          "handle_position_m": 0.0,
+          "base_xy_m": 0.0,
+          "base_yaw_rad": 0.0
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": false,
+          "final_ten_contact_fraction": 0.0,
+          "ever_verified": false,
+          "first_hold_step": null,
+          "max_base_displacement_m": 0.6030759875585687,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": false,
+          "final_ten_contact_fraction": 0.0,
+          "ever_verified": false,
+          "first_hold_step": null,
+          "max_base_displacement_m": 0.6030759875585687,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 89,
+          "max_base_displacement_m": 0.7241174169224249,
+          "base_repositions": 1
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 88,
+          "max_base_displacement_m": 0.7552731108416142,
+          "base_repositions": 1
+        }
+      }
+    },
+    {
+      "case": 5,
+      "house": 34247,
+      "original_case_state": "runtime_or_label_error",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 4.6303331466544734e-07,
+          "tcp_orientation_deg": 0.0002842493222651733,
+          "handle_position_m": 4.579989050898661e-07,
+          "base_xy_m": 6.878792290989076e-07,
+          "base_yaw_rad": 1.0075847045598607e-07
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.16200357735364132,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.16200357735364132,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.16200357735364132,
+          "base_repositions": 0
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.16200357735364132,
+          "base_repositions": 0
+        }
+      }
+    },
+    {
+      "case": 6,
+      "house": 60834,
+      "original_case_state": "complete",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 0.0,
+          "tcp_orientation_deg": 0.0,
+          "handle_position_m": 0.0,
+          "base_xy_m": 0.0,
+          "base_yaw_rad": 0.0
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.07152449086791351,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.07152449086791351,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.07152449086791351,
+          "base_repositions": 0
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.07152449086791351,
+          "base_repositions": 0
+        }
+      }
+    },
+    {
+      "case": 7,
+      "house": 20863,
+      "original_case_state": "complete",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 0.0,
+          "tcp_orientation_deg": 0.0,
+          "handle_position_m": 0.0,
+          "base_xy_m": 0.0,
+          "base_yaw_rad": 0.0
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.14497278419767207,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.14497278419767207,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.14497278419767207,
+          "base_repositions": 0
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 15,
+          "max_base_displacement_m": 0.14497278419767207,
+          "base_repositions": 0
+        }
+      }
+    },
+    {
+      "case": 8,
+      "house": 55290,
+      "original_case_state": "complete",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 0.0,
+          "tcp_orientation_deg": 0.0,
+          "handle_position_m": 0.0,
+          "base_xy_m": 0.0,
+          "base_yaw_rad": 0.0
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": false,
+          "final_ten_contact_fraction": 0.0,
+          "ever_verified": false,
+          "first_hold_step": null,
+          "max_base_displacement_m": 0.6032753040334438,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": false,
+          "final_ten_contact_fraction": 0.0,
+          "ever_verified": false,
+          "first_hold_step": null,
+          "max_base_displacement_m": 0.6032753040334438,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 100,
+          "max_base_displacement_m": 0.7963081158565015,
+          "base_repositions": 2
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 99,
+          "max_base_displacement_m": 0.8167414328588556,
+          "base_repositions": 2
+        }
+      }
+    },
+    {
+      "case": 9,
+      "house": 55956,
+      "original_case_state": "complete",
+      "reference_audit": {
+        "discrete_outcomes_match": true,
+        "maximum_deviations": {
+          "tcp_position_m": 0.0,
+          "tcp_orientation_deg": 0.0,
+          "handle_position_m": 0.0,
+          "base_xy_m": 0.0,
+          "base_yaw_rad": 0.0
+        },
+        "passed": true
+      },
+      "results": {
+        "reference": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 20,
+          "max_base_displacement_m": 0.0553818578355753,
+          "base_repositions": 0
+        },
+        "close20mm_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 20,
+          "max_base_displacement_m": 0.0553818578355753,
+          "base_repositions": 0
+        },
+        "base_recovery_only": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 20,
+          "max_base_displacement_m": 0.0553818578355753,
+          "base_repositions": 0
+        },
+        "close20mm_and_base_recovery": {
+          "final_contact": true,
+          "final_ten_contact_fraction": 1.0,
+          "ever_verified": true,
+          "first_hold_step": 20,
+          "max_base_displacement_m": 0.0553818578355753,
+          "base_repositions": 0
+        }
+      }
+    }
+  ],
+  "training_started": false,
+  "full_door_opening_evaluated": false
+}

@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "source_split": "val",
+  "project_role": "test",
+  "role": "Conservative house reservations for official Val used as Test; this file does not certify expert success or physical retention.",
+  "source_repo": "allenai/molmobot-data",
+  "source_revision": "159a5aecaf2ba73855940ad325b477b27d85da73",
+  "cases": [
+    {
+      "house": 7
+    },
+    {
+      "house": 125
+    },
+    {
+      "house": 204
+    },
+    {
+      "house": 397
+    },
+    {
+      "house": 671
+    },
+    {
+      "house": 695
+    },
+    {
+      "house": 839
+    },
+    {
+      "house": 843
+    },
+    {
+      "house": 1487
+    },
+    {
+      "house": 1517
+    },
+    {
+      "house": 1653
+    },
+    {
+      "house": 1740
+    },
+    {
+      "house": 1939
+    },
+    {
+      "house": 2040
+    },
+    {
+      "house": 2154
+    },
+    {
+      "house": 2344
+    },
+    {
+      "house": 2378
+    },
+    {
+      "house": 2420
+    },
+    {
+      "house": 2611
+    },
+    {
+      "house": 2616
+    },
+    {
+      "house": 2617
+    },
+    {
+      "house": 2691
+    },
+    {
+      "house": 2855
+    },
+    {
+      "house": 2895
+    },
+    {
+      "house": 2949
+    },
+    {
+      "house": 3003
+    },
+    {
+      "house": 3019
+    },
+    {
+      "house": 3232
+    },
+    {
+      "house": 3252
+    },
+    {
+      "house": 3267
+    },
+    {
+      "house": 3415
+    },
+    {
+      "house": 3429
+    },
+    {
+      "house": 3484
+    },
+    {
+      "house": 3512
+    },
+    {
+      "house": 3536
+    },
+    {
+      "house": 3731
+    },
+    {
+      "house": 3762
+    },
+    {
+      "house": 3777
+    },
+    {
+      "house": 3882
+    },
+    {
+      "house": 3903
+    },
+    {
+      "house": 3939
+    },
+    {
+      "house": 3984
+    },
+    {
+      "house": 4047
+    },
+    {
+      "house": 4098
+    },
+    {
+      "house": 4156
+    },
+    {
+      "house": 4275
+    },
+    {
+      "house": 4371
+    },
+    {
+      "house": 4376
+    },
+    {
+      "house": 4385
+    },
+    {
+      "house": 4433
+    },
+    {
+      "house": 4691
+    },
+    {
+      "house": 4799
+    },
+    {
+      "house": 4816
+    },
+    {
+      "house": 4823
+    },
+    {
+      "house": 4899
+    },
+    {
+      "house": 4911
+    },
+    {
+      "house": 4933
+    },
+    {
+      "house": 4975
+    },
+    {
+      "house": 4997
+    },
+    {
+      "house": 5046
+    },
+    {
+      "house": 5289
+    },
+    {
+      "house": 5393
+    },
+    {
+      "house": 5584
+    },
+    {
+      "house": 5637
+    },
+    {
+      "house": 5671
+    },
+    {
+      "house": 5848
+    },
+    {
+      "house": 5871
+    },
+    {
+      "house": 5987
+    },
+    {
+      "house": 6020
+    },
+    {
+      "house": 6076
+    },
+    {
+      "house": 6161
+    },
+    {
+      "house": 6249
+    },
+    {
+      "house": 6692
+    },
+    {
+      "house": 6708
+    },
+    {
+      "house": 6744
+    },
+    {
+      "house": 6851
+    },
+    {
+      "house": 7070
+    },
+    {
+      "house": 7149
+    },
+    {
+      "house": 7471
+    },
+    {
+      "house": 7766
+    },
+    {
+      "house": 7783
+    },
+    {
+      "house": 8031
+    },
+    {
+      "house": 8138
+    },
+    {
+      "house": 8318
+    },
+    {
+      "house": 8412
+    },
+    {
+      "house": 8425
+    },
+    {
+      "house": 8438
+    },
+    {
+      "house": 8662
+    },
+    {
+      "house": 8735
+    },
+    {
+      "house": 8738
+    },
+    {
+      "house": 8954
+    },
+    {
+      "house": 9053
+    },
+    {
+      "house": 9091
+    },
+    {
+      "house": 9268
+    },
+    {
+      "house": 9391
+    },
+    {
+      "house": 9462
+    },
+    {
+      "house": 9466
+    },
+    {
+      "house": 9642
+    },
+    {
+      "house": 9816
+    },
+    {
+      "house": 9831
+    },
+    {
+      "house": 9953
+    }
+  ]
+}

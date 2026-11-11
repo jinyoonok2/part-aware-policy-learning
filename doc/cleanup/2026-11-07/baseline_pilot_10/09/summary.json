@@ -1,0 +1,51 @@
+{
+  "state": "complete",
+  "steps": 400,
+  "model_inference_used": true,
+  "matched_input_audit_passed": true,
+  "retained_grasp_opening_success": false,
+  "door_threshold_ever": true,
+  "per_arm_retention": {
+    "left": {
+      "retained_grasp_opening_success": false,
+      "reason": "no_force_verified_grasp_before_major_opening",
+      "grasp_verified_step": null,
+      "opening_at_grasp": null,
+      "max_translation_slip_m": 0.0,
+      "max_rotation_slip_deg": 0.0,
+      "prior_failed_attempts": []
+    },
+    "right": {
+      "retained_grasp_opening_success": false,
+      "reason": "handle_relative_slip_limit_exceeded",
+      "grasp_verified_step": null,
+      "opening_at_grasp": null,
+      "max_translation_slip_m": 0.0046616560776020135,
+      "max_rotation_slip_deg": 11.066271367421987,
+      "prior_failed_attempts": [
+        {
+          "grasp_step": 93,
+          "end_step": 111,
+          "reason": "handle_relative_slip_limit_exceeded",
+          "max_translation_slip_m": 0.003920417848654666,
+          "max_rotation_slip_deg": 18.365642757164263
+        },
+        {
+          "grasp_step": 155,
+          "end_step": 173,
+          "reason": "handle_relative_slip_limit_exceeded",
+          "max_translation_slip_m": 0.0046616560776020135,
+          "max_rotation_slip_deg": 11.066271367421987
+        }
+      ]
+    }
+  },
+  "gate_events": [],
+  "intervention_steps": 0,
+  "policy_action_calls": 400,
+  "opposite_arm_near_closing": 0,
+  "first_proposal_sha256": "4252ce435c23e10c12b913010dbe53a772a91c248d836c4dc2c5d9540b1aff91",
+  "conditioning_sha256": "2dff9ab7c8193deddb781541972f786e370fc7b58586b89b6b1edfc5fb16c050",
+  "episode_wall_seconds": 254.14538102399092,
+  "smoke_only": false
+}

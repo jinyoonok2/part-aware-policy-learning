@@ -1,0 +1,59 @@
+{
+  "role": "train",
+  "scope": "offline pose errors; does not measure physical grasp or door opening",
+  "observations": 4,
+  "trajectories": 1,
+  "completed_training_updates": 4,
+  "checkpoint": "/tmp/part_pose_learning_actual_train_20261108/checkpoints/step00004.pt",
+  "checkpoint_sha256": "0f7d1ccc0fd6ea5287c96f84d7b18fe889c161da6a4ffb62c00374da5011b9ce",
+  "cache_metadata_sha256": "dcc6641bbd57a36aba306254285bf026028f2e03a94baa1c31af6041b1e05db5",
+  "target_frame": "future initial-grasp TCP in current observation robot-base frame, xyz+wxyz",
+  "normalization_fitted_on": "Train only",
+  "checkpoint_selection": "predetermined final update; this evaluation does not select a checkpoint",
+  "per_observation": {
+    "position_error_m": {
+      "mean": 0.397366289049387,
+      "median": 0.35628756880760193,
+      "p90": 0.564539584517479
+    },
+    "orientation_error_deg": {
+      "mean": 133.28554344177246,
+      "median": 133.3880958557129,
+      "p90": 151.8302459716797
+    },
+    "arm_correct": {
+      "mean": 0.5,
+      "median": 0.5,
+      "p90": 1.0
+    },
+    "finger_span_error_m": {
+      "mean": 0.04663839191198349,
+      "median": 0.04633784666657448,
+      "p90": 0.04725585207343101
+    }
+  },
+  "per_trajectory_mean": {
+    "position_error_m": {
+      "mean": 0.397366289049387,
+      "median": 0.397366289049387,
+      "p90": 0.397366289049387
+    },
+    "orientation_error_deg": {
+      "mean": 133.28554344177246,
+      "median": 133.28554344177246,
+      "p90": 133.28554344177246
+    },
+    "arm_correct": {
+      "mean": 0.5,
+      "median": 0.5,
+      "p90": 0.5
+    },
+    "finger_span_error_m": {
+      "mean": 0.04663839191198349,
+      "median": 0.04663839191198349,
+      "p90": 0.04663839191198349
+    }
+  },
+  "orientation_error_includes_wrong_arm_predictions": true,
+  "label_confidence": "Source heuristic initial-grasp labels; no force-certified outcome claim"
+}

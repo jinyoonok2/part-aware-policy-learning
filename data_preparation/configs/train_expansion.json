@@ -1,0 +1,13 @@
+{
+  "name": "Expanded official Train expert subset for interaction-pose learning",
+  "parent_dataset": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_v1_20261106",
+  "target_pose_trajectories": 5000,
+  "download_budget_bytes": 80000000000,
+  "advertised_inflated_budget_bytes": 85000000000,
+  "maximum_houses": 1400,
+  "exclude_validation_numeric_house_ids": true,
+  "checkpoint_report_interval_houses": 5,
+  "source_revision": "159a5aecaf2ba73855940ad325b477b27d85da73",
+  "label_status": "Offline expert pose references selected by the original grasp-phase heuristic; not replay-verified firm-grasp labels. Numeric house-ID separation and source provenance do not prove geometry disjointness across scene families.",
+  "scope": "Expand Train only; preserve the initial 503 references and all Val files. No model training or final benchmark evaluation."
+}

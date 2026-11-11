@@ -1,0 +1,36 @@
+{
+  "state": "complete",
+  "steps": 400,
+  "model_inference_used": true,
+  "matched_input_audit_passed": true,
+  "retained_grasp_opening_success": false,
+  "door_threshold_ever": true,
+  "per_arm_retention": {
+    "left": {
+      "retained_grasp_opening_success": false,
+      "reason": "no_force_verified_grasp_before_major_opening",
+      "grasp_verified_step": null,
+      "opening_at_grasp": null,
+      "max_translation_slip_m": 0.0,
+      "max_rotation_slip_deg": 0.0,
+      "prior_failed_attempts": []
+    },
+    "right": {
+      "retained_grasp_opening_success": false,
+      "reason": "no_force_verified_grasp_before_major_opening",
+      "grasp_verified_step": null,
+      "opening_at_grasp": null,
+      "max_translation_slip_m": 0.0,
+      "max_rotation_slip_deg": 0.0,
+      "prior_failed_attempts": []
+    }
+  },
+  "gate_events": [],
+  "intervention_steps": 0,
+  "policy_action_calls": 400,
+  "opposite_arm_near_closing": 0,
+  "first_proposal_sha256": "4210cd2f32c187f0e24a803da34d1c87cc0198f5f65a78df5e9dc3c65d52e940",
+  "conditioning_sha256": "070e8a463eec2cc1cc6927c3cc4d9abb88669a2e9fece07a0f59bf260e0e6960",
+  "episode_wall_seconds": 234.3086891489802,
+  "smoke_only": false
+}

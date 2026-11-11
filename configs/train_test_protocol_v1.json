@@ -1,0 +1,119 @@
+{
+  "name": "Part-conditioned pose project: Train and Test only",
+  "project_splits": [
+    "train",
+    "test"
+  ],
+  "source_to_project_role": {
+    "train": "train",
+    "val": "test"
+  },
+  "dataset": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_train_test_v1_20261107",
+  "training": {
+    "source_split": "train",
+    "optimizer_updates": 20000,
+    "microbatch_size": 1,
+    "effective_batch_size": 4,
+    "diagnostic_interval_updates": 500,
+    "diagnostic_data_role": "train",
+    "checkpoint_interval_updates": 1000,
+    "retained_checkpoints_updates": [
+      5000,
+      10000,
+      15000,
+      20000
+    ],
+    "final_checkpoint_update": 20000,
+    "checkpoint_selection": "Predetermined 20000-update checkpoint; Test outcomes are not used to select checkpoints or hyperparameters.",
+    "precision": "bf16",
+    "seed": 6198,
+    "gradient_norm_clip": 1.0,
+    "pose_head_implemented": true,
+    "current_priority": "Compare the fixed trained checkpoint on separate Val197 and Benchmark400 cohorts; no new training or checkpoint selection.",
+    "implementation": {
+      "features": "pose_learning.prepare_features",
+      "train": "pose_learning.train",
+      "offline_pose_evaluation": "pose_learning.evaluate",
+      "simulator_policy_evaluation": "pose_learning.evaluate_policy",
+      "input": "Current RGB, robot joint state, visible current-frame handle points, push/pull task",
+      "target_frame": "Future initial-grasp TCP in the current observation robot-base frame; xyz+wxyz",
+      "part_mask_input_implemented": false
+    },
+    "training_submission_status": "completed; full Train features, BF16 check and 20000 optimizer updates verified",
+    "run": "/bigtemp/xna8aw/part-aware-policy-learning/training/pose_20k_20261107_01",
+    "submitted_jobs": {
+      "features": "6838321",
+      "train20k": "6838322"
+    },
+    "execution_status_source": "/bigtemp/xna8aw/part-aware-policy-learning/training/pose_20k_20261107_01/train/status.json",
+    "completed_optimizer_updates": 20000,
+    "completion_verified_at": "2026-11-08T13:41:29-05:00",
+    "final_checkpoint": "/bigtemp/xna8aw/part-aware-policy-learning/training/pose_20k_20261107_01/train/checkpoints/step20000.pt",
+    "test_accessed_during_training": false
+  },
+  "test": {
+    "source_split": "val",
+    "use_for_training": false,
+    "use_for_checkpoint_selection": false,
+    "use_for_hyperparameter_selection": false,
+    "retain_previously_inspected_examples": true,
+    "exposure_ledger_required": true,
+    "expert_reference_required": true,
+    "physical_retention_verification": "Source expert success does not certify continuous force-qualified retention; report measured witnesses separately.",
+    "expansion": "Prepare independent fixed Benchmark400 from the 2000-start simulator benchmark, preserving original Val197 as a separate evaluation set.",
+    "policy_actor_seeds": [
+      42
+    ],
+    "primary_episode_manifest": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_train_test_v1_20261107/final_episode_manifest.json",
+    "existing_expert_trajectory_base_count": 197,
+    "automatic_verification_or_expansion": false,
+    "evaluation": {
+      "run": "/bigtemp/xna8aw/part-aware-policy-learning/runs/pose_test197_20261108_01",
+      "source_cases": 197,
+      "offline_labeled_trajectories": 187,
+      "offline_observations": 748,
+      "policy_rollouts": 394,
+      "seed": 42,
+      "horizon": 400,
+      "maximum_simultaneous_gpus": 2,
+      "expert_feasibility_certified_for_all_cases": false,
+      "new_expert_generation_submitted": false,
+      "progress_source": "/bigtemp/xna8aw/part-aware-policy-learning/runs/pose_test197_20261108_01/policy/report.json",
+      "submission_record": "pose_learning/EVALUATION_RUN.md"
+    },
+    "evaluation_sets": {
+      "official_val197": {
+        "cohort_id": "official_val197",
+        "episodes": 197,
+        "pose_labeled_trajectories": 187,
+        "source_revision": "159a5aecaf2ba73855940ad325b477b27d85da73",
+        "dataset": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_train_test_v1_20261107",
+        "evaluation_run": "/bigtemp/xna8aw/part-aware-policy-learning/runs/pose_test197_20261108_01",
+        "preserved": true
+      },
+      "benchmark_eval400_v1": {
+        "cohort_id": "benchmark_eval400_v1",
+        "dataset": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/benchmark_eval400_v1_20261108",
+        "parent_benchmark": "/bigtemp/xna8aw/LRL/cache/molmo-spaces-resources/mujoco/benchmarks/molmospaces-bench-v2/20260327/procthor-10k/rby1_benchmarks/door_opening_benchmark/benchmark.json",
+        "parent_episodes": 2000,
+        "episodes": 400,
+        "houses": 200,
+        "push": 200,
+        "pull": 200,
+        "selection_seed": 6198,
+        "original_197_cases_included": 0,
+        "exclude_train_houses": true,
+        "exclude_existing_test_houses": true,
+        "membership_fixed_before_outcomes": true,
+        "expert_failures_do_not_change_membership": true,
+        "recording_format": "benchmark_expert_witness_v2",
+        "native_pilot_cases": 20,
+        "maximum_simultaneous_expert_gpus": 1,
+        "model_evaluation_submitted": false,
+        "progress_source": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/benchmark_eval400_v1_20261108/status.json",
+        "label_coverage_source": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/benchmark_eval400_v1_20261108/collection_inventory.json",
+        "submission_record": "data_preparation/BENCHMARK400_RUN.md"
+      }
+    }
+  }
+}

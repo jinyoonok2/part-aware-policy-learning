@@ -1,0 +1,652 @@
+[
+  {
+    "path": "scripts/README.md",
+    "bytes": 11171,
+    "sha256": "e827bd9c9d8ad587b562e32cf948621f40ba2904205fb4746f8dcfd507523bd5"
+  },
+  {
+    "path": "scripts/audit_interaction_pose_dataset.py",
+    "bytes": 4730,
+    "sha256": "d0aa1e1def0cbf0d8b8a4b909b3ee75a25d75f63d70f4049396a8c184fc97b05"
+  },
+  {
+    "path": "scripts/audit_interaction_pose_replay.py",
+    "bytes": 23468,
+    "sha256": "c028ee2e4f38ddef851768974253b2917cd9d2f45c446a639ae0bc7309101afa"
+  },
+  {
+    "path": "scripts/audit_pilot_metrics.py",
+    "bytes": 2659,
+    "sha256": "9013d823706297e382e9e6e13f5074e25d70d6a038c4d255fbb8ad46e8ff7303"
+  },
+  {
+    "path": "scripts/audit_retained_grasp_opening.py",
+    "bytes": 4805,
+    "sha256": "3cf53d32967e4315bc6bb6cdc832137a773e93c8df6a9b6f36e299184b125774"
+  },
+  {
+    "path": "scripts/build_early_interaction_pose_view.py",
+    "bytes": 22727,
+    "sha256": "80e84dfed3c16ae778865fc10bcd16d00449bb45c5a83a5e932a5d233aba5d70"
+  },
+  {
+    "path": "scripts/cache_critic_features.py",
+    "bytes": 6958,
+    "sha256": "abd114c7e03503df6a9fb9682c92fd1a824f82e69e4df92e1f75c34ebaf28f51"
+  },
+  {
+    "path": "scripts/candidate_search.py",
+    "bytes": 7897,
+    "sha256": "1e8ffe66bce46ed21a1cf19a9a5cb66e89a5d6d29fc9d746057be9f1ea440a69"
+  },
+  {
+    "path": "scripts/closed_loop_selection.py",
+    "bytes": 763,
+    "sha256": "06e53f691232ae0aa971900e74563e31d87538a01cb5c0429599f24887eb154e"
+  },
+  {
+    "path": "scripts/collect_interaction_pose_dataset.py",
+    "bytes": 21270,
+    "sha256": "af0c2c0669f825e998e62c84e3fe3c66c89fab489be777e1ac3477ba5cbc5ba2"
+  },
+  {
+    "path": "scripts/create_critic_architecture_diagram.py",
+    "bytes": 4995,
+    "sha256": "9338da5f1bac3ad8578e943696a81610f9f9d247d8d76b9be0541dd637c904bb"
+  },
+  {
+    "path": "scripts/create_method_comparison_diagram.py",
+    "bytes": 4796,
+    "sha256": "1f6427f52198cbf606aae2f913b8e670c5bd21fb284fd721454832910e248471"
+  },
+  {
+    "path": "scripts/create_project_summary_pdf.py",
+    "bytes": 9350,
+    "sha256": "3421ef910afe95b1ac434ca2cd8755caf3b15cd5c804bcf91c9da2e894df03b8"
+  },
+  {
+    "path": "scripts/critic_data.py",
+    "bytes": 6686,
+    "sha256": "c5d99f1c8f211871881fb4d013632fdcfc27e70aefa957d33ba40ebce02d9986"
+  },
+  {
+    "path": "scripts/critic_selector.py",
+    "bytes": 6634,
+    "sha256": "9abb79bc9e833894d630cac675d65acfa8ae3af1f2516ad24aa5ff57a6576d31"
+  },
+  {
+    "path": "scripts/data_evaluation_reservations.py",
+    "bytes": 5144,
+    "sha256": "6320fe33bb55c7a5dda91d33fa9d287d1e30a3eac61661292568c6beaa4ea4cc"
+  },
+  {
+    "path": "scripts/diagnose_interaction_pose_contacts.py",
+    "bytes": 18113,
+    "sha256": "d1f40d918cc4c9141ff567cca15ea8e5b67a85b9a3aae22d7798897f53fadf17"
+  },
+  {
+    "path": "scripts/expand_interaction_pose_dataset.py",
+    "bytes": 26308,
+    "sha256": "e5e3df839d178d356c9caf15380f195779e54085ffcad743c82187331e1ea2bc"
+  },
+  {
+    "path": "scripts/firm_grasp_controller.py",
+    "bytes": 11551,
+    "sha256": "c96ff648aa5ddd09be5d126791289b555ac72cada30fea3f5e7fce8ba0212e65"
+  },
+  {
+    "path": "scripts/generate_val_test_experts.py",
+    "bytes": 18285,
+    "sha256": "c352d9fe290ebbc54c70595bd7398f42be85167f94ff10de3ba803dc9618d95d"
+  },
+  {
+    "path": "scripts/inspect_demonstration.py",
+    "bytes": 4182,
+    "sha256": "4babfc0601858bba102aa893904d4769d252d75ce60dfc40770db817b3f5d77b"
+  },
+  {
+    "path": "scripts/link_comparison_videos.py",
+    "bytes": 2732,
+    "sha256": "4c90c4bbefc4855224afc63a20208470f96ae1b4b8bf1b9a3feee6d68f415d16"
+  },
+  {
+    "path": "scripts/make_candidate_split.py",
+    "bytes": 5280,
+    "sha256": "bb5ec2c74c3b532577aa0eac01d92345d0b3a4849eab940440354e76d0611e13"
+  },
+  {
+    "path": "scripts/make_comparison_videos.py",
+    "bytes": 19576,
+    "sha256": "141eb67ad508c75135b418bffb1464d15256a243ad5d26a7b0182372ac819ad9"
+  },
+  {
+    "path": "scripts/materialize_bounded_benchmark_verification.py",
+    "bytes": 6717,
+    "sha256": "4243d9946bbfa3c26aff57b8e82f8de5c68fe5670667131f7fc6550d60eac0a9"
+  },
+  {
+    "path": "scripts/molmobot_oracle_pilot.py",
+    "bytes": 23744,
+    "sha256": "5697b317069cb608e16a9948747a31d7a75763168cbad7688c308811497e9076"
+  },
+  {
+    "path": "scripts/molmobot_pose_adapter.py",
+    "bytes": 12242,
+    "sha256": "5395b148a1b4270ac4dfc21a2ebb7af5550d97fab2bb9e307dc6c23fb9d64954"
+  },
+  {
+    "path": "scripts/native_smoke.py",
+    "bytes": 9142,
+    "sha256": "dc14d3182407ff65ce86fd3275dcc126c98aa8eb3fb8152bd748437b0a15d777"
+  },
+  {
+    "path": "scripts/organize_comparison_videos.py",
+    "bytes": 3898,
+    "sha256": "55139008e74844252045abf5dc29b4823c0cd69c49cf38ec38df07e381e71850"
+  },
+  {
+    "path": "scripts/prepare_benchmark_expert_verification.py",
+    "bytes": 7835,
+    "sha256": "7211ba6c763532f644fc0165f679a4acfc2052cb8e0a297792d829a5f0e60855"
+  },
+  {
+    "path": "scripts/prepare_benchmark_test_pool.py",
+    "bytes": 4023,
+    "sha256": "7787ce6ace48ff586670ebf3fa2105bda15cab83eb5ae6d1c7c728346f9d67d5"
+  },
+  {
+    "path": "scripts/prepare_bounded_benchmark_verification.py",
+    "bytes": 12161,
+    "sha256": "c2a3151dfc85c95cce4f8d50fa76d12029f37add94241badb14268e7e9baabcc"
+  },
+  {
+    "path": "scripts/prepare_candidate_cohort.py",
+    "bytes": 5378,
+    "sha256": "a5f3a1809de4a005e4bbd3198e88b5ea99b43c5e2029b96a83cdc21aff09979b"
+  },
+  {
+    "path": "scripts/prepare_candidate_search.py",
+    "bytes": 3673,
+    "sha256": "fc235847ae18961bfeb8e1308dd41070bde6f754e87cfe4afd3325a1391df66c"
+  },
+  {
+    "path": "scripts/prepare_closed_loop.py",
+    "bytes": 4880,
+    "sha256": "6dbb8d663b6d284be6630436289bd2c30076ea775045268996f84cdd7780e151"
+  },
+  {
+    "path": "scripts/prepare_expert_validation.py",
+    "bytes": 15366,
+    "sha256": "a3f7cfe5af788af519a359c61ccbe12ffe2ef68ff691705db089c860075460c0"
+  },
+  {
+    "path": "scripts/prepare_final_pose_evaluation.py",
+    "bytes": 15252,
+    "sha256": "c6179b6d1a2fdc8defbdfae6ec200d7718ad22076113b58b94dc5121b70e61dc"
+  },
+  {
+    "path": "scripts/prepare_interaction_pose_validation.py",
+    "bytes": 4188,
+    "sha256": "967fa0b66b40ff2f36b4ffb94c377dcf4a6e1a24ec4478a2455c6fb06a59fd89"
+  },
+  {
+    "path": "scripts/prepare_smoke.py",
+    "bytes": 8106,
+    "sha256": "687b853fa58de2775faf74394e5e6af23265a6097d963e76cdf91f34b1a91106"
+  },
+  {
+    "path": "scripts/prepare_train_test_dataset.py",
+    "bytes": 30616,
+    "sha256": "647f6db6419e04f392e1198a89bd313db40056fb7f9339c476a5445c95c04bf5"
+  },
+  {
+    "path": "scripts/prepare_visual_critic.py",
+    "bytes": 3890,
+    "sha256": "7793eb1a3eae9b246672dbb50c84697c9708d52ce8e4195d38e2cc44d64feed5"
+  },
+  {
+    "path": "scripts/probe_egl.py",
+    "bytes": 2023,
+    "sha256": "8badd0be7806423f7ca322aee2cdfb336a9142b9619fc47aba74b05ee5085bee"
+  },
+  {
+    "path": "scripts/recover_candidate_case.py",
+    "bytes": 1866,
+    "sha256": "97df370a8a26bbb92aad55d99fca66375e559b05bb500e79050926070526d478"
+  },
+  {
+    "path": "scripts/report_benchmark_expert_verification.py",
+    "bytes": 17065,
+    "sha256": "9c909149c8311761d7138bb13d59c14f7b5c935e10e0f1b42565e5c2d6e25058"
+  },
+  {
+    "path": "scripts/report_candidate_cohort.py",
+    "bytes": 5613,
+    "sha256": "01a8ae9a1638c8101d64f9e4886b0523cb24a2cae42fd004a162ceaa6f043b71"
+  },
+  {
+    "path": "scripts/report_candidate_search.py",
+    "bytes": 3297,
+    "sha256": "a85ba9954f3ca4d02a63a53064aee511a46cf620981d13ed9ae1089cd7f62c28"
+  },
+  {
+    "path": "scripts/report_closed_loop.py",
+    "bytes": 5265,
+    "sha256": "2f7cd6a822c38e0edde04dc52b4511d59815d476a53e68933f19870d35c98225"
+  },
+  {
+    "path": "scripts/report_final_pose_evaluation.py",
+    "bytes": 25406,
+    "sha256": "9a3695cf3989c88c4d5e5a5d04516086d022b37cf49435bde9a32b303ec74987"
+  },
+  {
+    "path": "scripts/report_pose_training_readiness.py",
+    "bytes": 29927,
+    "sha256": "3c3bfbbaa28d80be933135195eb543bea34c2c8c629d111d428f68318ff1b8d7"
+  },
+  {
+    "path": "scripts/report_robustness.py",
+    "bytes": 8867,
+    "sha256": "94bfd8b68d3684a53bdda1d0a08be52c965bc7e61e4b917fe212818caa0c3abb"
+  },
+  {
+    "path": "scripts/report_smoke.py",
+    "bytes": 7314,
+    "sha256": "bb2ab1c53cd46e33bbb1eadb2f1d76fcfa558dad74efec35d2d4b071c79100df"
+  },
+  {
+    "path": "scripts/report_visual_critic.py",
+    "bytes": 3375,
+    "sha256": "7f68dc811f735ef0ae84207c54f786b01a92b2a91e2ed05e3e69cd04ad455aa3"
+  },
+  {
+    "path": "scripts/retained_grasp_metrics.py",
+    "bytes": 11009,
+    "sha256": "f83d5f89897875a361e08000505c245eb7d698d0b3c2dd5db0c95cb5ac1b732b"
+  },
+  {
+    "path": "scripts/review_interaction_pose_recovery.py",
+    "bytes": 9408,
+    "sha256": "7d53da02d1f79f7f123bfbecb6f8449e4cbf573571a41b73002fbb9264a9fd3a"
+  },
+  {
+    "path": "scripts/robustness_visuals.py",
+    "bytes": 5600,
+    "sha256": "5031d7f47bf622cd310f8c09fa9520d52f4608bb604f981de3b51fb63210d08b"
+  },
+  {
+    "path": "scripts/run_candidate_cohort.py",
+    "bytes": 1925,
+    "sha256": "ea3b33f1bf069c0bbd074e7f9fb4a3e13435e0794ca3d5e605740a506742285d"
+  },
+  {
+    "path": "scripts/run_candidate_search.py",
+    "bytes": 15084,
+    "sha256": "c5b1bffdab0f5c9a30dff3c12e5c4d822aac4efdb1059b92ec69d07574fe743a"
+  },
+  {
+    "path": "scripts/run_closed_loop.py",
+    "bytes": 13670,
+    "sha256": "439d91d79949a9ee103bcb7b870ab9ba134e1ec1b1511a0fe3b428a0902e312f"
+  },
+  {
+    "path": "scripts/run_final_pose_evaluation.py",
+    "bytes": 32070,
+    "sha256": "610ee07691cfcf994710e673cc431cade655c8b1d8c5ce450144188a614612f4"
+  },
+  {
+    "path": "scripts/run_grasp_and_open_pilot.py",
+    "bytes": 21509,
+    "sha256": "7ef8d8155c6dcc1666035877e0f16d3f4eecdbc20a48c28dcc11223b9e022143"
+  },
+  {
+    "path": "scripts/run_interaction_pose_recovery.py",
+    "bytes": 9795,
+    "sha256": "6837e83ae1640ee4c142342ab9a346751cbbe1b0f6ed757c2e63b8cccfcb5031"
+  },
+  {
+    "path": "scripts/run_interaction_pose_servo.py",
+    "bytes": 21788,
+    "sha256": "0db7a8dbb50639675be6b66fd1bf86e56f7b6c20370ff4dfd12e65163e256e70"
+  },
+  {
+    "path": "scripts/run_retained_grasp_pilot.py",
+    "bytes": 11313,
+    "sha256": "7375e7339cb62d7421ecd4305c41c20d699cd2104aac01cfbc7bc94bdb44cf2d"
+  },
+  {
+    "path": "scripts/run_robustness.py",
+    "bytes": 17463,
+    "sha256": "0c8e09753ddb1efffee4aca66e3a4e2171cebf6670d0515b83c1261c5c887e02"
+  },
+  {
+    "path": "scripts/slurm/README.md",
+    "bytes": 12476,
+    "sha256": "e0b6c8453162d610c8407484f38f57a80073a16bff9ceb60e9ebf65b64f3abaa"
+  },
+  {
+    "path": "scripts/slurm/audit_final_pose_evaluation.sh",
+    "bytes": 1816,
+    "sha256": "2f7c3dc256e200bda2ebb72548be5dceb1cfd2d433f18a8188b11a02c2e10176"
+  },
+  {
+    "path": "scripts/slurm/audit_interaction_pose_replay.sh",
+    "bytes": 1335,
+    "sha256": "72f8df25588ffb635e7d8ebed9a7258e1f28cbba2dc390abfa1e5924128712c4"
+  },
+  {
+    "path": "scripts/slurm/build_early_interaction_pose_view.sh",
+    "bytes": 592,
+    "sha256": "bda41c163cb7ee00e1bbcf914b54f095b5b1e9aa640d8ed0c78b2e77a1878be2"
+  },
+  {
+    "path": "scripts/slurm/build_val_expert_dependencies.sh",
+    "bytes": 3621,
+    "sha256": "4d453ae4dcfd6f51dcdd3745806dfba0b8e682f767c94bb2b5b561aa099b218e"
+  },
+  {
+    "path": "scripts/slurm/cache_visual_critic.sh",
+    "bytes": 1074,
+    "sha256": "b394f8e5bf3e8bb91e707912e49ea27fe9e7e2604667f61659277154c7608294"
+  },
+  {
+    "path": "scripts/slurm/candidate_search.sh",
+    "bytes": 1588,
+    "sha256": "5766dbc8b75b7051f572ee614bbf4f3a86d63989180877d9af02c0457569a393"
+  },
+  {
+    "path": "scripts/slurm/closed_loop_dev.sh",
+    "bytes": 1697,
+    "sha256": "fc03ed607ee50c8dee754b112424b21148ba2938e9567b87b1d1b4c970aaf211"
+  },
+  {
+    "path": "scripts/slurm/collect_candidate_cohort.sh",
+    "bytes": 1697,
+    "sha256": "c5c26ff52df8b87d3d563dd2f50adb1b7025201444878723a0d3fafc02f2b850"
+  },
+  {
+    "path": "scripts/slurm/collect_interaction_pose_dataset.sh",
+    "bytes": 553,
+    "sha256": "8b0b3b0ebaf90911726165d420c9b2bf6500d42dd3e3d683ebd19a41ce1ff0c2"
+  },
+  {
+    "path": "scripts/slurm/diagnose_interaction_pose_contacts.sh",
+    "bytes": 1356,
+    "sha256": "ee9f82069697c356692829b28927e7fafbaa7f79ecb8a35ef67489fde2f854ce"
+  },
+  {
+    "path": "scripts/slurm/expand_interaction_pose_dataset.sh",
+    "bytes": 600,
+    "sha256": "c333ca26b7fd6066251459e1edbd17436faceedb3af9c1e89c74dbb2c9440108"
+  },
+  {
+    "path": "scripts/slurm/final_pose_evaluation.sh",
+    "bytes": 1642,
+    "sha256": "e1c0996c6e1588e9e476fca3c2fa6ea46f0886eb7d0cfed36191b363714e1276"
+  },
+  {
+    "path": "scripts/slurm/generate_val_test_experts.sh",
+    "bytes": 1570,
+    "sha256": "dbeb8af5528763d22efa86d73a8ab7b4df489fee0fd2cb020f24b747738b4aab"
+  },
+  {
+    "path": "scripts/slurm/molmobot_oracle_pilot.sh",
+    "bytes": 1474,
+    "sha256": "d08b900571268bcdaf5b9b482ee27662375839dd92f7cdef881641d77e9b80aa"
+  },
+  {
+    "path": "scripts/slurm/native_smoke.sh",
+    "bytes": 1611,
+    "sha256": "e13496e45611da1f144ac8d043d2e79b36b4aae5006dd9e0e796803c82030de4"
+  },
+  {
+    "path": "scripts/slurm/prepare_train_test_dataset.sh",
+    "bytes": 636,
+    "sha256": "e9b2134cedf3a27d774a494857734f865fc64788cc72ee06125048fd0101c2a9"
+  },
+  {
+    "path": "scripts/slurm/recover_candidate_case.sh",
+    "bytes": 1687,
+    "sha256": "7312ede0755720a5f6e5aa765ec065c4941d4fd31bfa4338bd86d59c53868461"
+  },
+  {
+    "path": "scripts/slurm/report_benchmark_expert_verification.sh",
+    "bytes": 497,
+    "sha256": "133d92ad07a3b04ba0d7cfe04a632fa0eb72290c51244641d4f851305466d771"
+  },
+  {
+    "path": "scripts/slurm/report_candidate_cohort.sh",
+    "bytes": 401,
+    "sha256": "e50fa43e8c429b5d5cc26f30f3c098e305db2b551175337f3491615ab7211fc8"
+  },
+  {
+    "path": "scripts/slurm/report_closed_loop.sh",
+    "bytes": 348,
+    "sha256": "6226f2c96e75dddf3c483df90a6868afdca9a8ed77fb6989c845e8c2f5785ba3"
+  },
+  {
+    "path": "scripts/slurm/report_pose_program.sh",
+    "bytes": 793,
+    "sha256": "4a91809836d57ea2893950b6c80526dfd0c5f70c7c5871bb1ccec244effa9d13"
+  },
+  {
+    "path": "scripts/slurm/report_robustness.sh",
+    "bytes": 389,
+    "sha256": "d2ebf0c008ccb2eac3f894ed8dad9f973c7fd5599fda9ee261f7f294817d2998"
+  },
+  {
+    "path": "scripts/slurm/report_visual_critic.sh",
+    "bytes": 544,
+    "sha256": "f543566d35f154c4608c02e68d2d32e8bef89018bb3ea1a64a89258ca40b322a"
+  },
+  {
+    "path": "scripts/slurm/run_grasp_and_open_pilot.sh",
+    "bytes": 1347,
+    "sha256": "564f9ce5a10e11de9b993f14dcabe479c2a0ea35c95f28425cd5fa80824ae4b3"
+  },
+  {
+    "path": "scripts/slurm/run_interaction_pose_recovery.sh",
+    "bytes": 1350,
+    "sha256": "d38f4f92ceef172cbd094743468454286ca17a0fe9b4538170518ececc13fd5c"
+  },
+  {
+    "path": "scripts/slurm/run_interaction_pose_servo.sh",
+    "bytes": 1335,
+    "sha256": "d3957edd2ac5b298db08fac06b9f83c94117a5e7357ce2308a3d90afd02bf815"
+  },
+  {
+    "path": "scripts/slurm/run_retained_grasp_pilot.sh",
+    "bytes": 1352,
+    "sha256": "a81f669bda250a33666033bad0ed8790488db495d76da5c9cf67b69ab983ac95"
+  },
+  {
+    "path": "scripts/slurm/run_robustness.sh",
+    "bytes": 1755,
+    "sha256": "be262ece5c8f09d6a786bb1ce67ebf21a209d6aa999f00a4e5780823a7af9573"
+  },
+  {
+    "path": "scripts/slurm/stage_benchmark_experts.sh",
+    "bytes": 863,
+    "sha256": "5986bd933b8cde806ed564c05182a7c754b55fed9bf46b77fa8b644e0ae2f7eb"
+  },
+  {
+    "path": "scripts/slurm/stage_bounded_benchmark_experts.sh",
+    "bytes": 856,
+    "sha256": "7db7c4e0ff4b95c5a6a963040108d5f305944cd953ba90cb84338660fe90827e"
+  },
+  {
+    "path": "scripts/slurm/stage_candidate_cohort.sh",
+    "bytes": 1740,
+    "sha256": "86a242905ad37dd80ea4d3824e3da0465488b5410e5b9dd11799c08255fb1cff"
+  },
+  {
+    "path": "scripts/slurm/stage_expert_validation.sh",
+    "bytes": 1135,
+    "sha256": "1f82c6813cf7ef822874137ce390022e756d7e31cd9def9cdda148335b95c8ce"
+  },
+  {
+    "path": "scripts/slurm/stage_final_pose_evaluation.sh",
+    "bytes": 2376,
+    "sha256": "cc9550dd217d6b373d020904b132fdddf3f7b6fc5613c6ad59299f545e7f6245"
+  },
+  {
+    "path": "scripts/slurm/train_visual_critic.sh",
+    "bytes": 953,
+    "sha256": "d0c033b29867dd24a95a9573bccb5d629335e0a8de4de21e98231a7f664b7804"
+  },
+  {
+    "path": "scripts/slurm/validate_expert_trajectory.sh",
+    "bytes": 1466,
+    "sha256": "3e27c4fef6b2ac98de7623b089716f0426ce29a855e1f89529b93792adb107df"
+  },
+  {
+    "path": "scripts/slurm/validate_mask_preprocessing.sh",
+    "bytes": 1099,
+    "sha256": "25c0d66c6c7bf8520bca8e5a12351d8c3309f5fa9b8d16b49deb02ac02183f9f"
+  },
+  {
+    "path": "scripts/slurm/verify_benchmark_expert.sh",
+    "bytes": 1742,
+    "sha256": "4abe24a0d1ba7f1b6f63dff9570a85b2258c727662c77d0952638a8cee3ec09f"
+  },
+  {
+    "path": "scripts/test_bounded_benchmark_verification.py",
+    "bytes": 4572,
+    "sha256": "6872494e1d858c8ddd48c48a0b56fca82ba13d8b716a5f2ec4a907b4db43d54b"
+  },
+  {
+    "path": "scripts/test_candidate_cohort.py",
+    "bytes": 2249,
+    "sha256": "dacf91fa085c98f293fd5d73e31c856396fb37515667f335a29b89e496ebcfbe"
+  },
+  {
+    "path": "scripts/test_candidate_search.py",
+    "bytes": 2444,
+    "sha256": "97d3825c301e488af819a9ad96df6e3695827a2a857512f08bc95e94d836a3ec"
+  },
+  {
+    "path": "scripts/test_closed_loop.py",
+    "bytes": 2632,
+    "sha256": "872ef657b3a6d6c4bb6680a1e9f10b7a5c3a0ba04bc897821d731f11b9466add"
+  },
+  {
+    "path": "scripts/test_data_evaluation_reservations.py",
+    "bytes": 10325,
+    "sha256": "edbc21f41417ff0089c65a781af4f9fed428271ae6d0db779d4d5e9623ae1465"
+  },
+  {
+    "path": "scripts/test_early_pose_quality.py",
+    "bytes": 1908,
+    "sha256": "83ff1d4cbcc5437a366ce9f2dcf609496e7ed88ec86673b8b79fd665f254794f"
+  },
+  {
+    "path": "scripts/test_final_pose_evaluation.py",
+    "bytes": 9565,
+    "sha256": "f6062cb8800e5cd13fc26c5df886a5a920719f6f50e03d5a4b5585a976216953"
+  },
+  {
+    "path": "scripts/test_final_pose_report.py",
+    "bytes": 15248,
+    "sha256": "1d445866d78fe0620c90dd3a922306843a5a8d710503996aa1382496514f082f"
+  },
+  {
+    "path": "scripts/test_final_pose_selection.py",
+    "bytes": 3384,
+    "sha256": "46cc2fe4109d21d3b746496da0fea6ff5a9a3529baac4776873cecd80167715b"
+  },
+  {
+    "path": "scripts/test_firm_grasp_controller.py",
+    "bytes": 2748,
+    "sha256": "9fe0b4a15a7919a5161126a6d181acad165af435aa9f698b5b894a5abfdb3209"
+  },
+  {
+    "path": "scripts/test_generate_val_test_experts.py",
+    "bytes": 1230,
+    "sha256": "bdd88ceb70bef6b93e3b3ad4c4a80f7727a46d77cd6a26a23d22d07e2c8cbf98"
+  },
+  {
+    "path": "scripts/test_grasp_and_open_pilot.py",
+    "bytes": 2763,
+    "sha256": "97abc3567b92b01d44b7e0869ffc99e9cf9272a88c7294e3f03e6913aff3e822"
+  },
+  {
+    "path": "scripts/test_interaction_pose_servo.py",
+    "bytes": 5659,
+    "sha256": "9bf78d69025f1eb4f23e730177c1236274393124c3c52bc9616c51796fa63acb"
+  },
+  {
+    "path": "scripts/test_molmobot_pose_adapter.py",
+    "bytes": 7936,
+    "sha256": "a1c0e442cdeff342065547218440f2133f860caeff2e83ae6c7c7bedfee9ff76"
+  },
+  {
+    "path": "scripts/test_pose_data_expansion.py",
+    "bytes": 2357,
+    "sha256": "fc8e332a8268caccb3e8ff316c2facd491002431ad42b86407d1516c02dc6eeb"
+  },
+  {
+    "path": "scripts/test_pose_training_readiness.py",
+    "bytes": 15838,
+    "sha256": "f07a5b8746830f7c62277625712f5408975788f319ffe2e70c72cdc18f5b579b"
+  },
+  {
+    "path": "scripts/test_prepare_expert_validation.py",
+    "bytes": 2002,
+    "sha256": "71b6e92700d519a968fc6bf9668f2ab5bdc5d05e038730f474f7db26c1d96906"
+  },
+  {
+    "path": "scripts/test_retained_grasp_metrics.py",
+    "bytes": 8462,
+    "sha256": "c27c776d3382f32c0b47da00605cb5c6da080021d29f1718da6890177d9245dc"
+  },
+  {
+    "path": "scripts/test_train_test_dataset.py",
+    "bytes": 5463,
+    "sha256": "bd403720472f62288b0afd5da7cd432631e3850ad0d9fc3bebf62d5b748540f8"
+  },
+  {
+    "path": "scripts/test_validate_expert_trajectory.py",
+    "bytes": 2731,
+    "sha256": "f29e2757d57b02b8243080da351b332cd40595bdda4c5fd06cca7900f8b8340d"
+  },
+  {
+    "path": "scripts/test_verify_benchmark_expert.py",
+    "bytes": 4083,
+    "sha256": "cbe07b7387bd6aefec483bd3c9594a5ab181e1939dd8afc1198aa78b3b3df65f"
+  },
+  {
+    "path": "scripts/test_visual_critic.py",
+    "bytes": 4002,
+    "sha256": "d5d6c3f7facf99d8ac3b74dc9a149ce4fdfd996b36ff3b84c6140cc210062d0d"
+  },
+  {
+    "path": "scripts/train_visual_critic.py",
+    "bytes": 7898,
+    "sha256": "9e2269c209d131d0995c5513a7d2b21092988b990f53d81a7986b155822fa510"
+  },
+  {
+    "path": "scripts/validate_candidate_dataset.py",
+    "bytes": 3934,
+    "sha256": "f7389cc40b809e138e8b714c443ed5d47a18dacc8425e88d424ba7e30b2d7ce3"
+  },
+  {
+    "path": "scripts/validate_expert_trajectory.py",
+    "bytes": 22025,
+    "sha256": "c9d301235150d2ba0c60aaa793a696282517138cd76c6d5108f94c1feea97d0b"
+  },
+  {
+    "path": "scripts/validate_mask_preprocessing.py",
+    "bytes": 13864,
+    "sha256": "a9a7fd78f5b8949637fe1a2b6be638037805618ae7c5e6f13aa2c9c912af18d3"
+  },
+  {
+    "path": "scripts/verify_benchmark_expert.py",
+    "bytes": 26480,
+    "sha256": "d6e0362ad7515d300457cc10c305ae81d38b0ef913a6934a6a612276bf8fdda8"
+  },
+  {
+    "path": "scripts/visual_critic.py",
+    "bytes": 4569,
+    "sha256": "d5b2813bb27433ff70ffb77300a5789dfac9786c11008e1239192fe7b4cfba77"
+  }
+]

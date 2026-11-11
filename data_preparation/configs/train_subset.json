@@ -1,0 +1,18 @@
+{
+  "name": "Official Train subset: 5000 pose references",
+  "repo": "allenai/molmobot-data",
+  "revision": "159a5aecaf2ba73855940ad325b477b27d85da73",
+  "task": "DoorOpeningDataGenConfig",
+  "source_split": "train",
+  "seed": 20261106,
+  "house_order_rule": "SHA256 of pose-data-v1:20261106:HOUSE; include all released parts for each selected house",
+  "initial_target_pose_trajectories": 5000,
+  "pilot_target_pose_trajectories": 20,
+  "download_budget_bytes": 80000000000,
+  "maximum_houses": 1400,
+  "minimum_gripper_closure_proxy_m": 0.005,
+  "validation_root": "/p/liverobotics/molmobot_molmospace/dataset/molmobot_official/val/DoorOpeningDataGenConfig/part0",
+  "label_rule": "Last completed GRASP_HANDLE phase before recorded success, with final three grasp flags true and a clear gripper closure; retain all other events and exclusions for audit",
+  "label_status": "Offline expert references; physical replay, matched scene assets and target-part pose frame remain to be validated",
+  "scope": "Prepare Train sources and expert pose labels. Use the separate early-pose view for learning. No model training or Test execution."
+}

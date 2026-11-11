@@ -1,0 +1,122 @@
+{
+  "status": "complete_reversible_archive",
+  "permanent_deletion": false,
+  "preserved": [
+    "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_v1_20261106",
+    "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_v2_5000_20261107",
+    "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_v2_early_quality_20261107",
+    "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_train_test_v1_20261107",
+    "/bigtemp/xna8aw/part-aware-policy-learning/datasets/test_400_plan",
+    "/bigtemp/xna8aw/part-aware-policy-learning/models",
+    "/bigtemp/xna8aw/part-aware-policy-learning/envs",
+    "/bigtemp/xna8aw/part-aware-policy-learning/cache",
+    "/bigtemp/xna8aw/part-aware-policy-learning/runs/grasp_7to10"
+  ],
+  "archived": [
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/baseline_robustness_20261102_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/baseline_robustness_20261102_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/benchmark_expert_verification_20261107_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/benchmark_expert_verification_20261107_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/benchmark_expert_verification_400_20261107_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/benchmark_expert_verification_400_20261107_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/benchmark_test_expansion_20261107_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/benchmark_test_expansion_20261107_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/candidate_search_20261103_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/candidate_search_20261103_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/candidate_search_smoke_20261103_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/candidate_search_smoke_20261103_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/closed_loop_dev_20261103_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/closed_loop_dev_20261103_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/expert_validation_pilot_20261107_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/expert_validation_pilot_20261107_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/final_pose_eval_v1_20261107_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/final_pose_eval_v1_20261107_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/grasp_and_open_20261106_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/grasp_and_open_20261106_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/grasp_and_open_20261106_02",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/grasp_and_open_20261106_02"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/interaction_pose_contacts_20261106_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/interaction_pose_contacts_20261106_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/interaction_pose_recovery_20261106_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/interaction_pose_recovery_20261106_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/interaction_pose_replay_20261106_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/interaction_pose_replay_20261106_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/interaction_pose_servo_20261106_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/interaction_pose_servo_20261106_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/molmobot_oracle_pose_20261107_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/molmobot_oracle_pose_20261107_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/molmobot_oracle_pose_20261107_02",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/molmobot_oracle_pose_20261107_02"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/molmobot_oracle_pose_20261107_03",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/molmobot_oracle_pose_20261107_03"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/molmobot_pose_program_20261107_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/molmobot_pose_program_20261107_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/native_door_smoke_20261028_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/native_door_smoke_20261028_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/retained_grasp_control_20261106_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/retained_grasp_control_20261106_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/val_test_expert_generation_pilot_20261107_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/val_test_expert_generation_pilot_20261107_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/visual_critic_20261103_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/visual_critic_20261103_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/runs/visual_critic_20261103_02",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/runs/visual_critic_20261103_02"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/candidate_search_v1_20261103_01",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/datasets/candidate_search_v1_20261103_01"
+    },
+    {
+      "original": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_v1_early_quality_20261107",
+      "archive": "/bigtemp/xna8aw/part-aware-policy-learning/archive/cleanup_20261107/datasets/interaction_pose_v1_early_quality_20261107"
+    }
+  ],
+  "permanent_deletion_blocked_by_auto_review": true
+}

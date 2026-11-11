@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "design": "Two separate evaluation cohorts; no merging of the 197 into the 400",
+  "original_set": {
+    "cohort_id": "official_val197",
+    "episodes": 197,
+    "pose_labeled_trajectories": 187,
+    "source_revision": "159a5aecaf2ba73855940ad325b477b27d85da73",
+    "dataset": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/interaction_pose_train_test_v1_20261107",
+    "evaluation_run": "/bigtemp/xna8aw/part-aware-policy-learning/runs/pose_test197_20261108_01",
+    "preserved": true
+  },
+  "benchmark_set": {
+    "cohort_id": "benchmark_eval400_v1",
+    "dataset": "/bigtemp/xna8aw/part-aware-policy-learning/datasets/benchmark_eval400_v1_20261108",
+    "parent_benchmark": "/bigtemp/xna8aw/LRL/cache/molmo-spaces-resources/mujoco/benchmarks/molmospaces-bench-v2/20260327/procthor-10k/rby1_benchmarks/door_opening_benchmark/benchmark.json",
+    "parent_episodes": 2000,
+    "episodes": 400,
+    "houses": 200,
+    "push": 200,
+    "pull": 200,
+    "selection_seed": 6198,
+    "original_197_cases_included": 0,
+    "exclude_train_houses": true,
+    "exclude_existing_test_houses": true,
+    "membership_fixed_before_outcomes": true,
+    "expert_failures_do_not_change_membership": true,
+    "recording_format": "benchmark_expert_witness_v2",
+    "collection_status": "queued",
+    "pose_label_coverage": "pending",
+    "native_pilot_cases": 20,
+    "maximum_simultaneous_expert_gpus": 1,
+    "jobs": {
+      "assets1": "6843418",
+      "assets2": "6843419",
+      "assets3": "6843420",
+      "assets4": "6843421",
+      "expert-first": "6843422",
+      "expert-pilot": "6843423",
+      "pilot-review": "6843424",
+      "expert-rest": "6843425",
+      "export": "6843426"
+    },
+    "model_evaluation_submitted": false
+  },
+  "maximum_total_gpus_with_existing_evaluation": 2,
+  "legacy_combined_target": {
+    "run": "/bigtemp/xna8aw/part-aware-policy-learning/runs/test_400_additions_20261107_01",
+    "status": "Superseded by separate Benchmark400; preserved, not resumed"
+  }
+}
